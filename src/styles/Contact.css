@@ -1,0 +1,144 @@
+.contact-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    color: #fff;
+}
+
+.box-form {
+    width: 800px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 0px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    background-color: #151515;
+}
+
+.formModal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    line-height: 35px;
+}
+
+.form-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 815px;
+}
+
+.form-input {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    text-indent: 10px;
+    border: none;
+    margin: 6px;
+}
+
+#message {
+    height: 100px;
+    align-items:inherit;
+}
+
+#message::placeholder {
+    height: 100px;
+    text-align: start;
+}
+
+.btn-info {
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700; 
+    border: none;
+    color: #fff;
+    background-color: #B00000;
+}
+
+.btn-info:hover {
+    font-size: 17px;
+    font-weight: 700; 
+    padding: 0px;
+    background-color:#000;
+    border-color: #000;
+    color: #fff;
+}
+
+@media (min-width: 1200px) {
+    .contact-container {
+        width:89vw;
+        margin-left: 150px;
+        height: 90vh;
+    }
+  }
+
+@media (max-width:600px) {
+    .contact-container {
+        width:100%;
+        height: 100vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-form {
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: -100px;
+    }
+    .form-input {
+        margin: 5px;
+        margin-left: 0px;
+        width: 300px;
+    }
+    .form-top {
+        display: grid;
+        justify-content: left;
+        width: 100%;
+    }
+    .text-contact {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width:768px) and (orientation: landscape){
+    .contact-container {
+        width:100%;
+        min-height: 100vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+    .box-form {
+        max-width: 100%;
+        height: 400px;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 100px;
+        margin-left: 0px;
+    }
+    .text-contact {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
+    /* Styles! */
+}

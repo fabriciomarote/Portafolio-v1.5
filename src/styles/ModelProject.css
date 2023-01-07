@@ -1,0 +1,104 @@
+.project-container {
+    width: 400px;
+    height: 500px;
+    margin: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.project-container:hover .add-info {
+    transform: translateY(0%);
+}
+
+.project-container:hover .image-project{
+    transform: scale(1.07);
+}
+
+.add-info {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    transform: translateY(100%);
+    transition: all 0.5s ease-out;
+    background-color: #000000b3;
+}
+
+.title {
+   font-size: 18px;
+   font-weight: 700;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image-project {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.box-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button-project {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: .3s ease all;
+    text-decoration: none;
+    color: #fff;
+    background-color: #B00000; 
+}
+.button-project:hover {
+    background-color:#fff;
+    color: #B00000; 
+}
+
+.not-link1 {
+    margin-right: -100px;
+}
+
+@media (min-width: 1200px) {
+    .project-container {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+    .project-container {
+        width: 350px;
+    }
+    .button-project {
+        font-size: 12px;
+    }
+    .not-link1 {
+        margin-right: -70px;
+    }
+    .project-container:hover .image-project{
+        transform: scale(1.07);
+        width: 360px;
+    }
+}
