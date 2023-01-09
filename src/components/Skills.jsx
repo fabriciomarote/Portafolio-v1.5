@@ -14,7 +14,7 @@ const Skills = () => {
       <>
             <a name='habilidades' />
             <div className='skills-container'>
-               <div className='title-box'>
+               <div className='title-box animate__animated animate__zoomIn'>
                   <p>MIS HABILIDADES</p>
                </div> 
                <div className='box-icons'>

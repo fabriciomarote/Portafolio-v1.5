@@ -2,18 +2,17 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { HomeContainer } from "./theme/Changes";
 import Themes from './theme/Themes'
-
 import '../styles/Home.css';
 
 const Home = () => {
 
     return (
         <>
-            <a name='inicio' />
+            <a name='inicio'/>
             <div className='home-container'>
-                <div className='box-home'>
+                <div className='box-home animate__animated animate__lightSpeedInLeft' >
                         <span>Hola,</span>
-                        <span>Soy Fabricio.</span>
+                        <span >Soy Fabricio.</span>
                         <span className='span1'>Desarrollador Web</span>
                         <span className='span1'>Full Stack</span>
                 </div> 

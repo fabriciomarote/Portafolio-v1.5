@@ -174,7 +174,7 @@
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(50vh - 40px);
+    height: calc(30vh - 40px);
     overflow-y: hidden;
     overflow-x: hidden;
   }

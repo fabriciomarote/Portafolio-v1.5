@@ -13,7 +13,7 @@ const Proyects = () => {
         <>
                 <a name='proyectos'/>
                 <div className='projects-box-container'>
-                    <div className='title-box'>
+                    <div className='title-box animate__animated animate__zoomIn'>
                         <p>MIS PROYECTOS</p>
                     </div> 
                     <div className='box-home'>

@@ -12,10 +12,6 @@
     transform: translateY(0%);
 }
 
-.project-container:hover .image-project{
-    transform: scale(1.07);
-}
-
 .add-info {
     position: sticky;
     bottom: 0;
@@ -85,11 +81,15 @@
     .project-container {
         overflow: hidden;
     }
+    .project-container:hover .image-project{
+        transform: scale(1.05);
+    }
 }
 
 @media (max-width: 767px) {
     .project-container {
-        width: 350px;
+        width: 90%;
+        margin-left: 20px;
     }
     .button-project {
         font-size: 12px;
@@ -98,7 +98,7 @@
         margin-right: -70px;
     }
     .project-container:hover .image-project{
-        transform: scale(1.07);
+        transform: scale(1.10);
         width: 360px;
     }
 }

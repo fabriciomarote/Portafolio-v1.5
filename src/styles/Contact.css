@@ -36,7 +36,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 815px;
+    width: 810px;
 }
 
 .form-input {
@@ -45,7 +45,7 @@
     border-radius: 10px;
     text-indent: 10px;
     border: none;
-    margin: 6px;
+    margin: 3px;
 }
 
 #message {

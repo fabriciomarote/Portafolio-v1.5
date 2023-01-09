@@ -21,7 +21,7 @@ const Contact = () => {
         <>
                 <a name='contacto' />
                 <div className='contact-container'>
-                    <p className='title-box'> CONTACTAME</p>
+                    <p className='title-box animate__animated animate__zoomIn'> CONTACTAME</p>
                     <div className='box-form'>
                         <form className='formModal'>
                             <div className='form-top'>

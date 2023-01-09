@@ -23,14 +23,6 @@ const projects = [
       text: "Aplicación realizada con React y CSS. Desarrollada en el marco de un proyecto de la facultad.",
     },
     {
-      id: 3,
-      image: Horney,
-      link1: "https://horney-joyas.vercel.app",
-      link2: "https://monteza-eventos.vercel.app/",
-      title: "Horney Joyas",
-      text: "Es una Website realizada con React, Javascrpit y CSS.",
-    },
-    {
       id: 5,
       image: Rotten,
       link1: "",
@@ -67,5 +59,12 @@ const projects = [
       title: "Twitter",
       text: "Fue desarrollado en el marco de un proyecto de la facultad.",
     },
-  
+    {
+      id: 3,
+      image: Horney,
+      link1: "https://horney-joyas.vercel.app",
+      link2: "https://monteza-eventos.vercel.app/",
+      title: "Horney Joyas",
+      text: "Es una Website realizada con React, Javascrpit y CSS.",
+    },
   */
