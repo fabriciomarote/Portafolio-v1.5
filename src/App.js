@@ -9,6 +9,7 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import ScrollButton from './components/scroll/ScrollButton.jsx';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Projects />
         <Contact  />
         <Footer /> 
+        <ScrollButton />
       </div> 
   );
 };

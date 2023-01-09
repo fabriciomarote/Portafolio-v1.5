@@ -98,7 +98,7 @@
         margin-right: -70px;
     }
     .project-container:hover .image-project{
-        transform: scale(1.10);
-        width: 360px;
+        transform: scale(1.07);
+       
     }
 }

@@ -159,22 +159,22 @@
     overflow-x: hidden;
     top: 100px;
     left: 0px;
-    background-color: #000000;
+    background-color: #000000b3;
   }
   .nav > .nav-links > a  {
     width: 100%;
-    font-size: 17px;
+    font-size: 25px;
     text-decoration: none;
   }
   .nav > .nav-links > a:hover {
     transform: scale(1.1);
     color: #B00000; 
   }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
+  .nav > #nav-check:not(:active) ~ .nav-links {
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(30vh - 40px);
+    height: calc(90vh - 40px);
     overflow-y: hidden;
     overflow-x: hidden;
   }
