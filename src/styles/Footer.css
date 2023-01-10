@@ -5,13 +5,14 @@
     justify-content: space-between;
     color: var(--text-primary);
     background-color: var(--background-navbar);
+    transition: all .5s;
   }
   
   .text-footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 10px;
     font-weight: 900;
   }
   
@@ -19,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 10px;
     color: #fff;
   }
   

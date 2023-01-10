@@ -6,6 +6,7 @@
     color: #FFFFFF;
     text-align: center;
     background-color: var(--background);
+    transition: all .5s;
 }
 
 .box-icons {
