@@ -20,7 +20,7 @@ export const Button = styled.div`
    font-size: 3rem;
    z-index: 1;
    cursor: pointer;
-   color: white;
+   color: var(--hover);
    @media (min-width: 1200px) {
       display: none;
    }
