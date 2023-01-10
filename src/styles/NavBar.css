@@ -69,7 +69,7 @@
 @media (min-width: 1200px) {
   .navbar-container {
     position: fixed;
-    width: 10vw;
+    width: 10.1vw;
     height: 100vh; 
   }
   .nav {
@@ -174,7 +174,7 @@
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(90vh - 40px);
+    height: calc(80vh - 40px);
     overflow-y: hidden;
     overflow-x: hidden;
   }
