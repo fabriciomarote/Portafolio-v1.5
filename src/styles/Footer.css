@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     color: #fff;
+    background-color: #000000b3; 
   }
   
   .text-footer {
@@ -34,9 +35,9 @@
   @media (min-width: 1200px) {
     .footer-container {
       width:89vw;
-      margin-left: 150px;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      margin-left: 149.5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
     .col-sm{
       font-size: 15px;

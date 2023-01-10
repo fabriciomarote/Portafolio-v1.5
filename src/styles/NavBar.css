@@ -69,7 +69,7 @@
 @media (min-width: 1200px) {
   .navbar-container {
     position: fixed;
-    width: 10.1vw;
+    width: 10vw;
     height: 100vh; 
   }
   .nav {
@@ -104,8 +104,8 @@
   }
   .logo {
     display: flex;
-    width: 100%;
-    height: 100px;
+    width: 40%;
+    height: 50px;
     margin-top: -50px;
   }
   .theme-1 {
@@ -116,7 +116,7 @@
     flex-direction: row;
     justify-items: center;
     align-items: center;
-    margin-left:65px;
+    margin-left:80px;
   }
 }
 
@@ -201,8 +201,8 @@
   }
   .logo {
     display: flex;
-    width: 100%;
-    height: 80px;
+    width: 80%;
+    height: 50px;
     margin-left: -30px;
   }
   .icon-theme {

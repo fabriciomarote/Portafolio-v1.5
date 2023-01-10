@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 import { ThemeProvider } from 'styled-components';
 import { NavBarContainer } from "./theme/Changes";
-import logo from '../assets/img/logos/logo-dark.png';
+import logo from '../assets/img/logos/logo.png';
 import Themes from './theme/Themes'
 import '../styles/NavBar.css';
 
