@@ -124,7 +124,7 @@
     flex-direction: row;  
     justify-content: left;
     width: 100%;
-    height: 100px;
+    height: 80px;
   }
   .nav > .nav-btn {
     display: inline-block;
@@ -142,6 +142,7 @@
     padding: 15px;
     margin: 10px;
     cursor: pointer;
+    display: none;
   }
   .nav > .nav-btn > label > span {
     display: block;
@@ -159,7 +160,8 @@
     overflow-x: hidden;
     top: 100px;
     left: 0px;
-    background-color: #000000b3;
+    background-color: #000000;
+    display: none;
   }
   .nav > .nav-links > a  {
     width: 100%;

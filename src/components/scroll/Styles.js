@@ -21,4 +21,7 @@ export const Button = styled.div`
    z-index: 1;
    cursor: pointer;
    color: white;
+   @media (min-width: 1200px) {
+      display: none;
+   }
 `
