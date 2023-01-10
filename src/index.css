@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --background: #f3f3f3;
+  --background-navbar:#cdcdcd;
+  --text-primary: black;
+  --icon: #B00000;
+  --hover: #000000;
+  --hover2: #000000;
+  --form-contact: #e8e8e8;
+}
+[data-theme='dark'] {
+  --background: #181818;
+  --background-navbar:rgb(10, 10, 10);
+  --text-primary: white;
+  --icon: #B00000;
+  --hover: #FFFFFF;
+  --hover2: #FFFFFF;
+  --form-contact: #151515;
+}

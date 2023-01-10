@@ -3,8 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
-    background-color: #000000b3; 
+    color: var(--text-primary);
+    background-color: var(--background-navbar);
   }
   
   .text-footer {

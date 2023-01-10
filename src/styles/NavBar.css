@@ -4,7 +4,7 @@
   align-items: center;
   font-family: 'Arial Narrow Bold', sans-serif;
   padding: 0px;
-  background-color: #000000b3;
+  background-color: var(--background-navbar);
 }
 
 .box-logo {
@@ -32,14 +32,14 @@
   font-size: 16px;
 }
 .nav > .nav-links > a {
-  color: #FFFFFF;
+  color: var(--text-primary);
 }
 .nav > .nav-links > a:hover {
   color: #B00000;
 } 
 .icon-theme {
   color: #B00000;
-  background-color: #000000b3; 
+  background-color: var(--background-navbar);
 }
 
 .nav > #nav-check {
@@ -63,7 +63,7 @@
   border-radius: 50px;
   width: 50px;
   height: 50px;
-  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2 );
+  box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.2 );
 }
 
 @media (min-width: 1200px) {
@@ -78,7 +78,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    color: #FFFFFF;
+    color: var(--text-primary);
   }
   .nav-header {
     display: inline;

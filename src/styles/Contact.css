@@ -5,7 +5,8 @@
     text-align: center;
     font-family: 'Arial Narrow Bold', sans-serif;
     width: 100%;
-    color: #fff;
+    color: var(--text-primary);
+    background-color: var(--background);
 }
 
 .box-form {
@@ -13,8 +14,8 @@
     justify-content: center;
     margin-top: 0px;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    background-color: #151515;
+    color: var(--text-primary);
+    background-color: var(--form-contact);
 }
 
 .formModal{
@@ -49,7 +50,8 @@
     padding: 15px 5px 0px 5px;
     text-indent: 5px;
     min-height: 150px;
-    width: 98%;
+    width: 98.3%;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 .btn-info {
@@ -75,7 +77,7 @@
 @media (min-width: 1200px) {
     .contact-container {
         width:89vw;
-        margin-left: 150px;
+        margin-left: 149.5px;
         min-height: 90vh;
     }
     .box-form {

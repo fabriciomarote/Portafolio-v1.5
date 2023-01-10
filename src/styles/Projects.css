@@ -5,12 +5,14 @@
     align-items: center;
     text-align: center;
     width: 100%;
+    background-color: var(--background);
+    color: var(--text-primary);
 }
 
 .title-box {
     font-size: 30px;
     font-weight: 900;
-    color: #fff;
+    color: var(--text-primary);
 }
 
 .box-projects {
@@ -24,7 +26,7 @@
 @media (min-width: 1200px) {
     .projects-box-container {
         width:89vw;
-        margin-left: 150px;
+        margin-left: 149.5px;
     }
     .box-projects {
         grid-template-columns: repeat(2, 1fr);

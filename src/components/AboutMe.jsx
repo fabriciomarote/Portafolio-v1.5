@@ -1,16 +1,15 @@
 import React from 'react';
-import { ThemeProvider } from 'styled-components';
-import { AboutMeContainer } from "./theme/Changes";
-import Themes from './theme/Themes'
 import foto from '../assets/img/foto.jpeg'; 
 import '../styles/AboutMe.css';
 
-const AboutMe = () => {
+const AboutMe = ( props ) => {
+
+    const { theme } = props;
   
     return (
         <>
             <a name='sobreMi' />
-            <div className='about-container'>
+            <div className='about-container' data-theme={theme}>
                 <div className='title-box animate__animated animate__slideInDown'>
                     <p>SOBRE MÍ</p>
                 </div> 

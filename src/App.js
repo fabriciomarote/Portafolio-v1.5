@@ -1,7 +1,4 @@
-import React, { useState } from 'react'
-import { ContainerGeneral } from './components/theme/Changes';
-import { ThemeProvider } from 'styled-components';
-import Themes from './components/theme/Themes'
+import React from 'react'
 import NavBar from './components/NavBar.jsx';
 import Home from './components/Home';
 import Contact from './components/Contact';
@@ -10,20 +7,25 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import ScrollButton from './components/scroll/ScrollButton.jsx';
+import useLocalStorage from 'use-local-storage'
+import './styles/App.css';
 
 function App() {
 
+  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+
   return (
-      <div>
+      <div data-theme={theme}>
         <div className="navbar">
-          <NavBar />
+          <NavBar theme={theme} setTheme={setTheme} />
         </div> 
-        <Home />
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <Contact  />
-        <Footer /> 
+        <Home theme={theme} setTheme={setTheme} />
+        <AboutMe theme={theme} setTheme={setTheme} />
+        <Skills theme={theme} setTheme={setTheme} />
+        <Projects theme={theme} setTheme={setTheme} />
+        <Contact  theme={theme} setTheme={setTheme} />
+        <Footer theme={theme} setTheme={setTheme} /> 
         <ScrollButton />
       </div> 
   );

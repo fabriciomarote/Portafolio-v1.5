@@ -1,8 +1,5 @@
 import React from "react";
 import { FaGithub, FaPager } from "react-icons/fa";
-import { ThemeProvider } from 'styled-components';
-import { ModelProjectContainer } from "./theme/Changes";
-import Themes from './theme/Themes'
 import '../styles/ModelProject.css';
 
 const ModelProject = (props) => {

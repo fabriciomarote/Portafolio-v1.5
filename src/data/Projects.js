@@ -1,6 +1,6 @@
 import Pokedex from "../assets/img/projects/pokedex.png";
 import PPTLS from "../assets/img/projects/PPTLS.jpg";
-import Horney from "../assets/img/projects/horney.png";
+//import Horney from "../assets/img/projects/horney.png";
 import Rotten from "../assets/img/projects/rotten.png";
 import Calculadora from "../assets/img/projects/calculadora.jpg";
 import Turnero from "../assets/img/projects/turnero.png";

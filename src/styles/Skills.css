@@ -5,6 +5,7 @@
     align-items: center;
     color: #FFFFFF;
     text-align: center;
+    background-color: var(--background);
 }
 
 .box-icons {
@@ -17,7 +18,7 @@
 
 .title-icon {
     font-weight: 700;
-    color: #fff;
+    color: var(--text-primary);
 }
 
 .icon {
@@ -32,13 +33,13 @@
 
 .icon:hover {
     transform: scale(1.1);
-    color: #fff;
+    color: var(--hover2);
 }
 
 @media (min-width: 1200px) {
     .skills-container {
         width:89vw;
-        margin-left: 150px;
+        margin-left: 149.5px;
     }
     .box-icons {
 

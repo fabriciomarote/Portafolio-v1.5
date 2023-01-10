@@ -1,30 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
-import { ThemeProvider } from 'styled-components';
-import { NavBarContainer } from "./theme/Changes";
 import logo from '../assets/img/logos/logo.png';
-import Themes from './theme/Themes'
 import '../styles/NavBar.css';
 
-const Navbar = () => {
+const Navbar = ( props ) => {
 
-    const [theme, setTheme] = useState(localStorage.getItem('theme'));
+    const { theme, setTheme } = props;
 
     const changeMode = () => {
-        let colour;
-        if (theme === 'light') {
-            setTheme('dark');
-            colour = 'dark';
-        } else {
-            setTheme('light');
-            colour = 'light';
-        }
-        localStorage.setItem('theme', colour);
+        let newTheme = theme === "light" ? "dark" : "light";
+        setTheme(newTheme);
     }
 
     return (
         <>
-            <div className="navbar-container">
+            <div className="navbar-container" data-theme={theme}>
                 <div className="nav">
                     <input type="checkbox" id="nav-check"/>
                     <div className="nav-header">
