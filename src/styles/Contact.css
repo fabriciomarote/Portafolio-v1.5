@@ -9,9 +9,6 @@
 }
 
 .box-form {
-    width: 800px;
-    height: 300px;
-    padding: 50px;
     border-radius: 10px;
     justify-content: center;
     margin-top: 0px;
@@ -34,13 +31,13 @@
 .form-top {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 810px;
+    width: 100%;
 }
 
 .form-input {
-    width: 100%;
+    width: 99%;
     height: 50px;
     border-radius: 10px;
     text-indent: 10px;
@@ -49,13 +46,10 @@
 }
 
 #message {
-    height: 100px;
-    align-items:inherit;
-}
-
-#message::placeholder {
-    height: 100px;
-    text-align: start;
+    padding: 15px 5px 0px 5px;
+    text-indent: 5px;
+    min-height: 150px;
+    width: 98%;
 }
 
 .btn-info {
@@ -82,7 +76,12 @@
     .contact-container {
         width:89vw;
         margin-left: 150px;
-        height: 90vh;
+        min-height: 90vh;
+    }
+    .box-form {
+        width: 800px;
+        min-height: 300px;
+        padding: 50px;
     }
   }
 
@@ -96,7 +95,7 @@
     }
     .box-form {
         width: 300px;
-        height: 400px;
+        min-height: 400px;
         padding: 20px;
         border-radius: 10px;
         margin-top: -100px;
@@ -108,13 +107,17 @@
     }
     .form-top {
         display: grid;
-        justify-content: left;
+        justify-content: space-between;
         width: 100%;
     }
     .text-contact {
         font-size: 35px;
         font-weight: 600;
     }
+    #message {
+    min-height: 100px;
+    width: 98%;
+}
 }
 
 @media (max-width:768px) and (orientation: landscape){
@@ -128,7 +131,7 @@
     }
     .box-form {
         max-width: 100%;
-        height: 400px;
+        min-height: 400px;
         padding: 20px;
         border-radius: 10px;
         margin-bottom: 100px;

@@ -29,7 +29,7 @@ const Contact = () => {
                                 <input className="form-input" type='text' name="email" value={data.email} onChange={handleChange("email")}placeholder="Email" required></input> 
                             </div>
                             <input className="form-input" type='text' name="asunto" value={data.asunto} onChange={handleChange("asunto")}placeholder="Asunto" required></input> 
-                            <input className="form-input" id='message' type='text' name="message" value={data.message} onChange={handleChange("message")}placeholder="Escribe tu mensaje aquí..." required></input> 
+                            <textarea className="form-input" id='message' name="message" value={data.message} onChange={handleChange("message")}placeholder="Escribe tu mensaje aquí..." required></textarea> 
                             <button type="submit" className="btn btn-info">Enviar</button>
                         </form>
                     </div>

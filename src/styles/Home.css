@@ -39,6 +39,10 @@ body {
       height: 110vh;
       margin-left: 150px;
     }
+
+    .animate__lightSpeedInLeft {
+      --animate-duration: 2s;
+    }
   }
   
   @media (max-width:600px) {

@@ -10,7 +10,7 @@ const Home = () => {
         <>
             <a name='inicio'/>
             <div className='home-container'>
-                <div className='box-home animate__animated animate__lightSpeedInLeft' >
+                <div className='box-home animate__animated animate__lightSpeedInLeft animate__delay-1s' >
                         <span>Hola,</span>
                         <span >Soy Fabricio.</span>
                         <span className='span1'>Desarrollador Web</span>
