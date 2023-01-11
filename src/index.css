@@ -20,6 +20,7 @@ code {
   --hover: #000000;
   --hover2: #000000;
   --form-contact: #e8e8e8;
+  --background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(./assets/img/fondos/background.jpg);
 }
 [data-theme='dark'] {
   --background: #181818;
@@ -29,4 +30,6 @@ code {
   --hover: #FFFFFF;
   --hover2: #FFFFFF;
   --form-contact: #0e0e0e77;
+  --background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./assets/img/fondos/background.jpg);;
+
 }

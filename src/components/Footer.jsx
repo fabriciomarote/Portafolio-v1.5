@@ -13,8 +13,8 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="icons-footer">
-                    <a href="https://github.com/fabriciomarote" className='icon-f'><FaGithub size={35}/></a>
-                    <a href="https://www.linkedin.com/in/fabricio-marote/" className='icon-f'><FaLinkedin size={35}/></a>
+                    <a href="https://github.com/fabriciomarote" className='icon-f'><FaGithub size={30}/></a>
+                    <a href="https://www.linkedin.com/in/fabricio-marote/" className='icon-f'><FaLinkedin size={30}/></a>
                 </div>
             </div>
         </>
