@@ -89,10 +89,10 @@
 
 @media (max-width: 767px) {
     .project-container {
-        width: 300px;
+        width: 250px;
         margin-left: 20px;
-        height: 450px;
-        margin: 0px;
+        height: 400px;
+        margin: 40px;
         padding: 0px;
     }
     .button-project {

@@ -39,7 +39,7 @@ const Proyects = () => {
                 <div className='title-box wow animate__animated animate__zoomIn'>
                     <p>MIS PROYECTOS</p>
                 </div> 
-                <div className='box-home'>
+                <div className='box-home-2'>
                     <div className='box-projects'>
                         <MdArrowBackIosNew className='left-arrow' onClick={prevProject} />
                         <MdArrowForwardIos className='right-arrow' onClick={nextProject} />
