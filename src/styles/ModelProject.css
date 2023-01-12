@@ -96,10 +96,12 @@
         padding: 0px;
     }
     .button-project {
-        font-size: 12px;
+        font-size: 8px;
+        height: 40px;
+        width: 100px;
     }
     .not-link1 {
-        margin-right: -70px;
+        margin-right: -50px;
     }
     .project-container:hover .image-project{
         transform: scale(1.07);
