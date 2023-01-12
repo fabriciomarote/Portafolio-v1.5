@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import WOW from 'wowjs';
 import '../styles/Contact.css';
 
 const Contact = ( props ) => {
@@ -15,13 +16,19 @@ const Contact = ( props ) => {
     const handleChange = name => event => {
         setData(prevState => ({ ...prevState, [name]: event.target.value }));
       };
+
+    useEffect(() => {
+        new WOW.WOW({
+          live: false
+        }).init();
+    }, [])  
   
     return (
         <>
             <a name='contacto' />
             <div className='contact-container' data-theme={theme}>
-                <p className='title-box animate__animated animate__zoomIn'> CONTACTAME</p>
-                <div className='box-form'>
+                <p className='title-box wow animate__animated animate__zoomIn'> CONTACTAME</p>
+                <div className='box-form wow animate__animated animate__zoomIn'>
                     <form className='formModal'>
                         <div className='form-top'>
                             <input className="form-input" type='text' name="name" value={data.name} onChange={handleChange("name")} placeholder="Nombre" required  ></input>    

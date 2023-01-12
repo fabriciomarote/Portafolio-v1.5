@@ -1,20 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FaGithub, FaJs, FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaBootstrap, FaNode, FaJava } from "react-icons/fa";
 import { DiMongodb, DiMysql, DiScrum, DiTrello } from "react-icons/di"; 
 import { SiSpring, SiGradle, SiApachemaven, SiPostman, SiExpress, SiNeo4J} from "react-icons/si";
 import { TbBrandKotlin } from "react-icons/tb";
+import WOW from 'wowjs';
 import '../styles/Skills.css';
 
 const Skills = () => {
+
+   useEffect(() => {
+      new WOW.WOW({
+        live: false
+      }).init();
+    }, [])
   
     return (
       <>
          <a name='habilidades' />
          <div className='skills-container'>
-            <div className='title-box animate__animated animate__zoomIn'>
+            <div className='title-box wow animate__animated animate__zoomIn'>
                <p>MIS HABILIDADES</p>
             </div> 
-            <div className='box-icons'>
+            <div className='box-icons wow animate__animated animate__zoomIn'>
                <div className='icon'>
                   <FaHtml5 size={70}/>
                   <p className="title-icon">HTML</p>

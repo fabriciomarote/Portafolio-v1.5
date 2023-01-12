@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { FaArrowCircleUp } from 'react-icons/fa';
+import { IoIosArrowDropupCircle } from 'react-icons/io';
+
 import { Button } from './Styles';
   
 const ScrollButton = () =>{
@@ -29,7 +31,7 @@ const ScrollButton = () =>{
   
   return (
     <Button>
-     <FaArrowCircleUp onClick={scrollToTop } 
+     <IoIosArrowDropupCircle onClick={scrollToTop } 
      style={{display: visible ? 'inline' : 'none'}} className='animate__animated animate__pulse animate__infinite'/>
     </Button>
   );

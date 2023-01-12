@@ -7,7 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import ScrollButton from './components/scroll/ScrollButton.jsx';
-import useLocalStorage from 'use-local-storage'
+import useLocalStorage from 'use-local-storage';
 import './styles/App.css';
 
 function App() {
