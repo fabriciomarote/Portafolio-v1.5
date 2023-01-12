@@ -35,7 +35,7 @@
 
 .icon:hover {
     transform: scale(1.1);
-    color: var(--hover2);
+    color: var(--hover);
 }
 
 @media (min-width: 1200px) {

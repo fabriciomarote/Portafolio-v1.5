@@ -20,7 +20,7 @@ const Proyects = () => {
                     <p>MIS PROYECTOS</p>
                 </div> 
                 <div className='box-home'>
-                    <div className='box-projects wow animate__animated animate__zoomIn'>
+                    <div className='box-projects'>
                         { projects.map( project => {
                             return <ModelProject key={project.id} project={project}/>
                         })}
