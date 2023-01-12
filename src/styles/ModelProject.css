@@ -1,7 +1,4 @@
 .project-container {
-    width: 400px;
-    height: 500px;
-    margin: 40px;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
@@ -80,6 +77,10 @@
 @media (min-width: 1200px) {
     .project-container {
         overflow: hidden;
+        margin-bottom: 100px;
+        width: 400px;
+        height: 450px;
+        margin: 40px;
     }
     .project-container:hover .image-project{
         transform: scale(1.05);
@@ -88,8 +89,11 @@
 
 @media (max-width: 767px) {
     .project-container {
-        width: 90%;
+        width: 300px;
         margin-left: 20px;
+        height: 450px;
+        margin: 0px;
+        padding: 0px;
     }
     .button-project {
         font-size: 12px;
