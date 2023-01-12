@@ -17,12 +17,35 @@
 }
 
 .box-projects {
-    display: grid; 
-    justify-content: space-between;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin: 10px;
-    
 }
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    font-size: 3rem;
+    color: var(--icon);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    font-size: 3rem;
+    color: var(--icon);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
 
 @media (min-width: 1200px) {
     .projects-box-container {
@@ -32,6 +55,7 @@
     .box-projects {
         grid-template-columns: repeat(2, 1fr);
         margin-bottom: 00px;
+        margin-top: -40px;
     }    
 }
   

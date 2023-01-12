@@ -10,10 +10,10 @@ const Home = ( props ) => {
             <a name='inicio'/>
             <div className='home-container' data-theme={theme}>
                 <div className='box-home' >
-                        <span className='animate__animated animate__lightSpeedInLeft animate__delay-1s'>Hola,</span>
-                        <span className='animate__animated animate__lightSpeedInLeft animate__delay-1s'>Soy Fabricio.</span>
-                        <span className='span1 animate__animated animate__lightSpeedInRight animate__delay-1s'>Desarrollador Web</span>
-                        <span className='span1 animate__animated animate__lightSpeedInRight animate__delay-1s'>Full Stack</span>
+                        <span className='animate__animated animate__lightSpeedInLeft animate__delay-2s'>Hola,</span>
+                        <span className='animate__animated animate__lightSpeedInLeft animate__delay-2s'>Soy Fabricio.</span>
+                        <span className='span1 animate__animated animate__lightSpeedInRight animate__delay-2s'>Desarrollador Web</span>
+                        <span className='span1 animate__animated animate__lightSpeedInRight animate__delay-2s'>Full Stack</span>
                 </div> 
             </div>
         </>
