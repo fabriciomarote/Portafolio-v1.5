@@ -16,9 +16,9 @@ code {
   --background: #f3f3f3;
   --background-navbar:#cdcdcd;
   --text-primary: black;
-  --icon: #B00000;
+  --icon: rgb(176, 0, 0);
   --hover: #000000;
-  --hover2: #000000;
+  --hover2: rgba(120, 1, 1, 0.9);
   --form-contact: #e8e8e8;
   --background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(./assets/img/fondos/white.jpg);
 }
@@ -28,8 +28,8 @@ code {
   --text-primary: white;
   --icon: #B00000;
   --hover: #FFFFFF;
-  --hover2: #FFFFFF;
+  --hover2: rgba(120, 1, 1, 0.9);
   --form-contact: #0e0e0e77;
-  --background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./assets/img/fondos/black.jpg);;
+  --background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./assets/img/fondos/black2.jpg);;
 
 }

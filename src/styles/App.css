@@ -2,3 +2,20 @@ body {
     background-color: var(--background);
     transition: all .5s;
 }
+
+.app {
+    background-color: var(--background);
+    transition: all .5s;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--icon);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--hover2);
+}

@@ -16,7 +16,7 @@ function App() {
   const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
 
   return (
-      <div data-theme={theme}>
+      <div className='app' data-theme={theme}>
         <div className="navbar">
           <NavBar theme={theme} setTheme={setTheme} />
         </div> 

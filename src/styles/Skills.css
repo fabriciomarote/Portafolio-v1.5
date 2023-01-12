@@ -12,8 +12,9 @@
 .box-icons {
     display: grid; 
     width: 50vw;
+    gap: 1rem;
     align-items: center;
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-columns: repeat(auto-fit,minmax(100px, 1fr)); 
     margin-top: 20px;
 }
 
@@ -46,7 +47,7 @@
 
         margin-bottom: 150px;
     }
-  }
+}
 
 @media (max-width:600px) {
     .skills-container {

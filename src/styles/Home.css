@@ -1,61 +1,59 @@
+.home-container {
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  color: var(--text-primary);
+  background: var(--background-image);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  transition: all .5s;
+}
+  
+.box-home {
+  max-height: 100%;
+  font-size: 70px;
+  font-weight: 300;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-home .span1 {
+  font-weight: 600;
+  color: #B00000;
+} 
+
+.footer {
+  margin-top: 120px;
+}
+
+@media (min-width: 1200px) {
   .home-container {
-    display: grid;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFF;
-    color: var(--text-primary);
-    background: var(--background-image);
-    background-size: cover;
+    width:89vw;
+    height: 110vh;
+    margin-left: 149.5px;
+  }
+  .animate__lightSpeedInLeft, .animate__lightSpeedInRight {
+    --animate-duration: 2s;
+  }
+}
+  
+@media (max-width:600px) {
+  .home-container {
+    min-height: 90vh;
+    width: 100%;
     background-position: center center;
-    height: 100vh;
-    transition: all .5s;
   }
-  
   .box-home {
-    max-height: 100%;
-    font-size: 70px;
-    font-weight: 300;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    font-size: 37px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
-
-  .box-home .span1 {
-    font-weight: 600;
-    color: #B00000;
-  } 
-  
-  .footer {
-    margin-top: 120px;
+  .animate__lightSpeedInLeft, .animate__lightSpeedInRight {
+    --animate-duration: 2s;
   }
-
-  @media (min-width: 1200px) {
-    .home-container {
-      width:89vw;
-      height: 110vh;
-      margin-left: 149.5px;
-    }
-
-    .animate__lightSpeedInLeft, .animate__lightSpeedInRight {
-      --animate-duration: 2s;
-    }
-  }
-  
-  @media (max-width:600px) {
-    .home-container {
-      min-height: 90vh;
-      width: 100%;
-      background-position: center center;
-    }
-    .box-home {
-      font-size: 37px;
-      margin-top: 50px;
-      margin-bottom: 100px;
-    }
-
-    .animate__lightSpeedInLeft, .animate__lightSpeedInRight {
-      --animate-duration: 2s;
-    }
-  }
+}

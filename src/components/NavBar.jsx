@@ -23,7 +23,7 @@ const Navbar = ( props ) => {
                         </div>
                         <div className="theme-1">
                         <div className='icon-theme' onClick={() => changeMode()}>
-                            { theme === "dark" ? <BsFillSunFill  className='icon-dark' size={35}/> : <BsFillMoonFill className='icon-light' size={35}/>}
+                            { theme === "dark" ? <BsFillMoonFill className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}
                         </div>
                     </div>
                     </div>
@@ -43,7 +43,7 @@ const Navbar = ( props ) => {
                     </div>
                     <div className="theme-2">
                         <div className='icon-theme' onClick={() => changeMode()}>
-                            { theme === "dark" ? <BsFillSunFill  className='icon-dark' size={35}/> : <BsFillMoonFill className='icon-light' size={35}/>}
+                            { theme === "dark" ? <BsFillMoonFill  className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}
                         </div>
                     </div>
                 </div>
