@@ -4,6 +4,8 @@ import PPTLS from "../assets/img/projects/PPTLS.jpg";
 import Rotten from "../assets/img/projects/rotten.png";
 import Calculadora from "../assets/img/projects/calculadora.jpg";
 import Turnero from "../assets/img/projects/turnero.png";
+import Unqfy from "../assets/img/projects/Unqfy.png"
+import Ubermen from "../assets/img/projects/Ubermen.png"
 
 const projects = [
     {
@@ -25,7 +27,7 @@ const projects = [
       type: "Frontend",
     },
     {
-      id: 5,
+      id: 3,
       image: Rotten,
       link1: "",
       link2: "https://bluefox-rick-and-morty.vercel.app/",
@@ -34,7 +36,7 @@ const projects = [
       type: "FullStack",
     },
     {
-      id: 6,
+      id: 4,
       image: Calculadora,
       link1: "https://calculadora-eight-beta.vercel.app",
       link2: "https://github.com/fabriciomarote/calculadora",
@@ -43,13 +45,31 @@ const projects = [
       type: "Frontend",
     },
     {
-      id: 7 ,
+      id: 5,
       image: Turnero,
       link1: "",
       link2: "https://bluefox182.github.io/JavaScript-Drum-Kit/",
       title: "Turnero",
       text: "Web con sistema de turnos para hospitales realizada con ReactJS, Kotlin, Spring Boot y SQL. Fue desarrollado en el marco de un proyecto de la facultad.",
       type: "FullStack",
+    },
+    {
+      id: 6,
+      image: Ubermen,
+      link1: "",
+      link2: "https://github.com/fabriciomarote/Ubermen",
+      title: "Ubermen",
+      text: "",
+      type: "Backend",
+    },
+    {
+      id: 7,
+      image: Unqfy,
+      link1: "",
+      link2: "https://github.com/fabriciomarote/UNQfy",
+      title: "Unqfy",
+      text: "",
+      type: "Backend",
     },
   ];
   
