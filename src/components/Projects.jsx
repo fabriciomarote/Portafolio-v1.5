@@ -10,7 +10,7 @@ const Proyects = () => {
     const [current, setCurrent] = useState(0);
     const [viewProjects, setViewProjects] = useState(projects);
     const [typeProjects, setTypeProjects] = useState("fullstack");
-    const length = projects.length;
+    const length = viewProjects.length;
 
     const nextProject = () => {
         setCurrent(current === length - 1 ? 0 : current + 1);
@@ -27,8 +27,7 @@ const Proyects = () => {
     }
 
     const changeView = (type) => {
-        setTypeProjects(type);
-        setViewProjects(projectsBy(typeProjects));
+        setViewProjects(projectsBy(type));
     }
 
     useEffect(() => {
@@ -45,7 +44,9 @@ const Proyects = () => {
 
     useEffect(() => {
         projectsBy(typeProjects)
-    }, [typeProjects]);    
+    }, [typeProjects, viewProjects]);    
+
+    console.log(viewProjects);
 
     return (
         <>
@@ -55,9 +56,9 @@ const Proyects = () => {
                     <p>MIS PROYECTOS</p>
                 </div> 
                 <div className='buttons-box wow animate__animated animate__zoomIn'>
-                <button className='button-project' onClick={() => changeView("Frontend")}>Front End</button>
-                <button className='button-project' onClick={() => changeView("Fullstack")}>Full Stack</button>
-                <button className='button-project' onClick={() => changeView("Backend")}>Back End</button>
+                <button className='button-project' onClick={() => { changeView("Frontend") }}>Front End</button>
+                <button className='button-project' onClick={() => { changeView("Fullstack") }}>Full Stack</button>
+                <button className='button-project' onClick={() => { changeView("Backend") }}>Back End</button>
                 </div> 
                 <div className='box-home-2'>
                     <div className='box-projects'>
