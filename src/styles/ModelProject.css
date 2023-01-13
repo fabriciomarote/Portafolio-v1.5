@@ -21,6 +21,10 @@
     background-color: #000000b3;
 }
 
+.animate__flipInY {
+    --animate-duration: 1.2s;
+  }
+
 .title {
    font-size: 18px;
    font-weight: 700;
@@ -78,8 +82,8 @@
     .project-container {
         overflow: hidden;
         margin-bottom: 100px;
-        width: 400px;
-        height: 450px;
+        width: 450px;
+        height: 550px;
         margin: 40px;
     }
     .project-container:hover .image-project{
