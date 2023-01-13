@@ -75,7 +75,7 @@
 }
 
 .not-link1 {
-    margin-right: -100px;
+    margin-right: -120px;
 }
 
 @media (min-width: 1200px) {
@@ -95,7 +95,7 @@
     .project-container {
         width: 250px;
         margin-left: 20px;
-        height: 400px;
+        height: 350px;
         margin: 40px;
         padding: 0px;
     }

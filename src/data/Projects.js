@@ -33,7 +33,7 @@ const projects = [
       link2: "https://bluefox-rick-and-morty.vercel.app/",
       title: "Rotten Tomatoes",
       text: "Fue desarrollado en el marco de un proyecto de la facultad.",
-      type: "FullStack",
+      type: "Fullstack",
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ const projects = [
       link2: "https://bluefox182.github.io/JavaScript-Drum-Kit/",
       title: "Turnero",
       text: "Web con sistema de turnos para hospitales realizada con ReactJS, Kotlin, Spring Boot y SQL. Fue desarrollado en el marco de un proyecto de la facultad.",
-      type: "FullStack",
+      type: "Fullstack",
     },
     {
       id: 6,
@@ -74,6 +74,7 @@ const projects = [
   ];
   
   export default projects;
+
 
   /* 
     {
