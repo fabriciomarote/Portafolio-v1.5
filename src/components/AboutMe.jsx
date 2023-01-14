@@ -27,7 +27,7 @@ const AboutMe = ( props ) => {
                     <p>Tengo 29 años, soy de Buenos Aires, Argentina. Actualmente soy estudiante avanzado de la Tecnicatura Universitaria en Programación Informática de la Universidad Nacional de Quilmes. Durante la carrera he desarrollado varios proyectos utilizando diferentes lenguajes y tecnologías, tengo experiencia y un buen manejo en lo que respecta al trabajo en equipo ya que vengo de hace años realizando proyectos grupales, además tengo conocimientos sobre las metodologías ágiles (SCRUM). Me he interesado y especializado además de forma autodidacta en el desarrollo de aplicaciones web.</p>
                 </div>
                 <div className='box-cv animate__animated animate__pulse animate__infinite'>
-                    <a href="https://drive.google.com/file/d/1OrfC8WAUbFl8Q8cNExuSAC7sUr38Dyzm/view?usp=sharing" className='button-cv'>Visualizar mi CV</a> 
+                    <a href="https://drive.google.com/file/d/1-jU1m3B4nGfcrR3IyVWpqNnbyI0I1H_E/view?usp=share_link" className='button-cv'>Visualizar mi CV</a> 
                 </div> 
             </div>
         </>  
