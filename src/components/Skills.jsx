@@ -23,83 +23,83 @@ const Skills = () => {
             </div> 
             <div className='box-icons wow animate__animated animate__zoomIn'>
                <div className='icon'>
-                  <FaHtml5 size={70}/>
+                  <FaHtml5 size={65}/>
                   <p className="title-icon">HTML</p>
                </div>
                <div className='icon'>
-                  <FaCss3Alt size={70}/>
+                  <FaCss3Alt size={65}/>
                   <p className="title-icon">CSS</p>
                </div>
                <div className='icon'>
-                  <FaBootstrap size={70}/>
+                  <FaBootstrap size={65}/>
                   <p className="title-icon">Bootstrap</p>
                </div>
                <div className='icon'>
-                  <FaJs size={70}/>
+                  <FaJs size={65}/>
                   <p className="title-icon">Javascript</p>
                </div>
                <div className='icon'>
-                  <FaReact size={70}/>
+                  <FaReact size={65}/>
                   <p className="title-icon">React</p>
                </div>
                <div className='icon'>
-                  <FaJava size={70}/>
+                  <FaJava size={65}/>
                   <p className="title-icon">Java</p>
                </div>
                <div className='icon'>
-                  <TbBrandKotlin size={70}/>
+                  <TbBrandKotlin size={65}/>
                   <p className="title-icon">Kotlin</p>
                </div>
                <div className='icon'>
-                  <FaNode size={70}/>
+                  <FaNode size={65}/>
                   <p className="title-icon">Node JS</p>
                </div>
                <div className='icon'>
-                  <SiExpress size={70}/>
+                  <SiExpress size={65}/>
                   <p className="title-icon">Express</p>
                </div>
                <div className='icon'>
-                  <DiMysql size={70}/>
+                  <DiMysql size={65}/>
                   <p className="title-icon">Mysql</p>
                </div>
                <div className='icon'>
-                  <DiMongodb size={70}/>
+                  <DiMongodb size={65}/>
                   <p className="title-icon">MongoDB</p>
                </div>
                <div className='icon'>
-                  <SiNeo4J size={70}/>
+                  <SiNeo4J size={65}/>
                   <p className="title-icon">Neo4J</p>
                </div>
                <div className='icon'>
-                  <SiSpring size={70}/>
+                  <SiSpring size={65}/>
                   <p className="title-icon">Spring Boot</p>
                </div>
                <div className='icon'>
-                  <SiApachemaven size={70}/>
+                  <SiApachemaven size={65}/>
                   <p className="title-icon">Maven</p>
                </div>
                <div className='icon'>
-                  <SiGradle size={70}/>
+                  <SiGradle size={65}/>
                   <p className="title-icon">Gradle</p>
                </div>
                <div className='icon'>
-                  <DiTrello size={70}/>
+                  <DiTrello size={65}/>
                   <p className="title-icon">Trello</p>
                </div>
                <div className='icon'>
-                  <SiPostman size={70}/>
+                  <SiPostman size={65}/>
                   <p className="title-icon">Postman</p>
                </div>
                <div className='icon'>
-                  <DiScrum size={70}/>
+                  <DiScrum size={65}/>
                   <p className="title-icon">Scrum</p>
                </div>
                <div className='icon'>
-                  <FaGithub size={70}/>
+                  <FaGithub size={65}/>
                   <p className="title-icon">Github</p>
                </div>
                <div className='icon'>
-                  <FaGitAlt size={70}/>
+                  <FaGitAlt size={65}/>
                   <p className="title-icon">Git</p>
                </div>
             </div> 

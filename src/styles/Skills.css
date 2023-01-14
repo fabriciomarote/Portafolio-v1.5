@@ -12,7 +12,7 @@
 .box-icons {
     display: grid; 
     width: 50vw;
-    gap: 1rem;
+    gap: 0.6rem;
     align-items: center;
     grid-template-columns: repeat(auto-fit,minmax(100px, 1fr)); 
     margin-top: 20px;
@@ -44,8 +44,7 @@
         margin-left: 149.5px;
     }
     .box-icons {
-
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
 }
 

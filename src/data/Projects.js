@@ -1,16 +1,22 @@
-import Pokedex from "../assets/img/projects/pokedex.png";
-import PPTLS from "../assets/img/projects/PPTLS.jpg";
+import Pokedex1 from "../assets/img/projects/pokedex1.png";
+import Pokedex2 from "../assets/img/projects/pokedex2.png";
+import PPTLS1 from "../assets/img/projects/PPTLS1.png";
+import PPTLS2 from "../assets/img/projects/PPTLS2.jpg";
 //import Horney from "../assets/img/projects/horney.png";
-import Rotten from "../assets/img/projects/rotten.png";
-import Calculadora from "../assets/img/projects/calculadora.jpg";
-import Turnero from "../assets/img/projects/turnero.png";
+import Rotten1 from "../assets/img/projects/rotten1.png";
+import Rotten2 from "../assets/img/projects/rotten2.png";
+import Calculadora1 from "../assets/img/projects/calculadora1.png";
+import Calculadora2 from "../assets/img/projects/calculadora2.jpg";
+import Turnero1 from "../assets/img/projects/turnero1.png";
+import Turnero2 from "../assets/img/projects/turnero2.png";
 import Unqfy from "../assets/img/projects/Unqfy.png"
 import Ubermen from "../assets/img/projects/Ubermen.png"
 
 const projects = [
     {
       id: 1,
-      image: Pokedex,
+      image1: Pokedex1,
+      image2: Pokedex2,
       link1: "https://pokedex-web-self.vercel.app",
       link2: "https://jowells-barber-shop.vercel.app",
       title: "Pokedex",
@@ -19,7 +25,8 @@ const projects = [
     },
     {
       id: 2,
-      image: Calculadora,
+      image1: Calculadora1,
+      image2: Calculadora2,
       link1: "https://calculadora-eight-beta.vercel.app",
       link2: "https://github.com/fabriciomarote/calculadora",
       title: "Calculadora",
@@ -28,34 +35,38 @@ const projects = [
     },
     {
       id: 3,
-      image: PPTLS,
+      image1: PPTLS1,
+      image2: PPTLS2,
       link1: "https://piedra-papel-tijera-largarto-spock.vercel.app",
       link2: "https://cupcake-landing-page.netlify.app",
       title: "Piedra, Papel, Tijera, Lagarto y Spock",
-      text: "Es un juego que realicé como entrega final en una de las materias de la carrera. Se desarrolló con HTML, CSS, React y Bootstrap. ",
+      text: "Es un juego que realicé en el marco de un proyecto en la Universidad. Se desarrolló con HTML, CSS, React y Bootstrap. ",
       type: "Frontend",
     },
     {
       id: 4,
-      image: Rotten,
+      image1: Rotten1,
+      image2: Rotten2,
       link1: "",
       link2: "",
       title: "Rotten Tomatoes",
-      text: "Es una pagina web donde hay que loguearse para poder criticar y se visualiza información sobre peliculas. Fue desarrollado en el marco de un proyecto de la Universidad. La parte de Backend se hizo con Kotlin y Javalin, y la parte de Frontend con React, HTML, CSS y Bootstrap.",
+      text: "Es una pagina web donde hay que loguearse para poder criticar y se visualiza información sobre peliculas. Fue desarrollado en el marco de un proyecto en la Universidad. La parte de Backend se hizo con Kotlin y Javalin, y la parte de Frontend con React, HTML, CSS y Bootstrap.",
       type: "Fullstack",
     },
     {
       id: 5,
-      image: Turnero,
+      image1: Turnero1,
+      image2: Turnero2,
       link1: "",
       link2: "",
       title: "Turnero",
-      text: "Es una web con sistemas de turnos medicos, donde además tiene un login, registro y edición de perfil. Fue realizada con ReactJS, Kotlin, Spring Boot y SQL. Fue desarrollado en el marco de un proyecto de la Universidad.",
+      text: "Es una web con sistemas de turnos medicos, donde además tiene un login, registro y edición de perfil. Fue realizada con ReactJS, Kotlin, Spring Boot y SQL. Fue desarrollado en el marco de un proyecto en la Universidad.",
       type: "Fullstack",
     },
     {
       id: 6,
-      image: Ubermen,
+      image1: Ubermen,
+      image2: Ubermen,
       link1: "",
       link2: "https://github.com/fabriciomarote/Ubermen",
       title: "Ubermen",
@@ -64,7 +75,8 @@ const projects = [
     },
     {
       id: 7,
-      image: Unqfy,
+      image1: Unqfy,
+      image2: Unqfy,
       link1: "",
       link2: "https://github.com/fabriciomarote/UNQfy",
       title: "Unqfy",
