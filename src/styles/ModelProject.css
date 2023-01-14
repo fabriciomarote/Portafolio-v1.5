@@ -108,17 +108,18 @@
         font-size: 15px;
     }
     .button-project {
-        font-size: 8px;
-        height: 40px;
-        width: 100px;
+        font-size: 7px;
+        height: 35px;
+        width: 90px;
         margin: 10px;
     }
     .project-container:hover .image-project{
         transform: scale(1.07);
     }
     .text {
-        margin-bottom: 25px;
-        margin-top: 30px;
+        font-size: 12px;
+        margin-bottom: 40px;
+        margin-top: 50px;
     }
     .image-project1 {
         display: none;

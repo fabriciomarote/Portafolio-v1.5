@@ -48,6 +48,7 @@
     background-color: var(--form-Contact);
     border-style: ridge;
     border-bottom-color: #B00000;
+    color: var(--text-primary);
     border-top: none;
     border-left: none;
     border-right: none;
