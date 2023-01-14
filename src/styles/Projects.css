@@ -82,11 +82,16 @@
     user-select: none;
   }
 
+  .right-arrow:hover, .left-arrow:hover {
+    transform: scale(1.2);
+    color: var(--text-primary);
+  }  
+
 @media (min-width: 1200px) {
     .projects-box-container {
         width:89vw;
         margin-left: 149.5px;
-        height: 95vh;
+        height: 100vh;
     }
     .box-projects {
     }    

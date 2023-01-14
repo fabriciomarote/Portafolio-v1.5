@@ -35,23 +35,29 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 810px;
 }
 
 .form-input {
-    width: 99%;
-    height: 50px;
-    border-radius: 10px;
+    width: 97%;
+    height: 40px;
+    border-radius: 0px;
     text-indent: 10px;
     border: none;
-    margin: 3px;
+    margin: 15px;
+    background-color: var(--form-Contact);
+    border-style: ridge;
+    border-bottom-color: #B00000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 #message {
     padding: 15px 5px 0px 5px;
     text-indent: 5px;
-    min-height: 150px;
-    width: 98.3%;
+    min-height: 50px;
+    width: 97%;
     font-family: 'Arial Narrow Bold', sans-serif;
 }
 
@@ -84,7 +90,8 @@
     .box-form {
         width: 800px;
         min-height: 300px;
-        padding: 50px;
+        padding: 30px;
+        margin-bottom: 100px;
     }
   }
 

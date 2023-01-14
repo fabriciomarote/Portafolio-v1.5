@@ -19,87 +19,87 @@ const Skills = () => {
          <a name='habilidades' />
          <div className='skills-container'>
             <div className='title-box wow animate__animated animate__zoomIn'>
-               <p>MIS HABILIDADES</p>
+               <p>MIS HABILIDADES / CONOCIMIENTOS</p>
             </div> 
             <div className='box-icons wow animate__animated animate__zoomIn'>
                <div className='icon'>
-                  <FaHtml5 size={65}/>
+                  <FaHtml5 size={100}/>
                   <p className="title-icon">HTML</p>
                </div>
                <div className='icon'>
-                  <FaCss3Alt size={65}/>
+                  <FaCss3Alt size={100}/>
                   <p className="title-icon">CSS</p>
                </div>
                <div className='icon'>
-                  <FaBootstrap size={65}/>
+                  <FaBootstrap size={100}/>
                   <p className="title-icon">Bootstrap</p>
                </div>
                <div className='icon'>
-                  <FaJs size={65}/>
+                  <FaJs size={100}/>
                   <p className="title-icon">Javascript</p>
                </div>
                <div className='icon'>
-                  <FaReact size={65}/>
+                  <FaReact size={100}/>
                   <p className="title-icon">React</p>
                </div>
                <div className='icon'>
-                  <FaJava size={65}/>
+                  <FaJava size={100}/>
                   <p className="title-icon">Java</p>
                </div>
                <div className='icon'>
-                  <TbBrandKotlin size={65}/>
+                  <TbBrandKotlin size={100}/>
                   <p className="title-icon">Kotlin</p>
                </div>
                <div className='icon'>
-                  <FaNode size={65}/>
+                  <FaNode size={100}/>
                   <p className="title-icon">Node JS</p>
                </div>
                <div className='icon'>
-                  <SiExpress size={65}/>
+                  <SiExpress size={100}/>
                   <p className="title-icon">Express</p>
                </div>
                <div className='icon'>
-                  <DiMysql size={65}/>
+                  <DiMysql size={100}/>
                   <p className="title-icon">Mysql</p>
                </div>
                <div className='icon'>
-                  <DiMongodb size={65}/>
+                  <DiMongodb size={100}/>
                   <p className="title-icon">MongoDB</p>
                </div>
                <div className='icon'>
-                  <SiNeo4J size={65}/>
+                  <SiNeo4J size={100}/>
                   <p className="title-icon">Neo4J</p>
                </div>
                <div className='icon'>
-                  <SiSpring size={65}/>
+                  <SiSpring size={100}/>
                   <p className="title-icon">Spring Boot</p>
                </div>
                <div className='icon'>
-                  <SiApachemaven size={65}/>
+                  <SiApachemaven size={100}/>
                   <p className="title-icon">Maven</p>
                </div>
                <div className='icon'>
-                  <SiGradle size={65}/>
+                  <SiGradle size={100}/>
                   <p className="title-icon">Gradle</p>
                </div>
                <div className='icon'>
-                  <DiTrello size={65}/>
+                  <DiTrello size={100}/>
                   <p className="title-icon">Trello</p>
                </div>
                <div className='icon'>
-                  <SiPostman size={65}/>
+                  <SiPostman size={100}/>
                   <p className="title-icon">Postman</p>
                </div>
                <div className='icon'>
-                  <DiScrum size={65}/>
+                  <DiScrum size={100}/>
                   <p className="title-icon">Scrum</p>
                </div>
                <div className='icon'>
-                  <FaGithub size={65}/>
+                  <FaGithub size={100}/>
                   <p className="title-icon">Github</p>
                </div>
                <div className='icon'>
-                  <FaGitAlt size={65}/>
+                  <FaGitAlt size={100}/>
                   <p className="title-icon">Git</p>
                </div>
             </div> 

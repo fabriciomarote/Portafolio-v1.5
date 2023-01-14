@@ -42,6 +42,9 @@
   color: #B00000;
   background-color: var(--background-navbar);
 }
+.icon-theme:hover {
+  color: var(--text-primary);
+}
 
 .nav > #nav-check {
   display: none;
