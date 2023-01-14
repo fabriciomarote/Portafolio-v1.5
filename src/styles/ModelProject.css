@@ -10,15 +10,19 @@
 }
 
 .add-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: sticky;
     bottom: 0;
-    text-align: center;
     font-size: 18px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 20px;
+    padding: 10px;
     transform: translateY(100%);
     transition: all 0.5s ease-out;
-    background-color: #000000b3;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100%;
 }
 
 .animate__flipInY {
@@ -58,8 +62,8 @@
     width: 150px;
     height: 50px;
     border: none;
-    margin: 5px;
-    font-size: 16px;
+    margin: 25px;
+    font-size: 15px;
     border-radius: 20px;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
@@ -74,41 +78,43 @@
     color: #B00000; 
 }
 
-.not-link1 {
-    margin-right: -120px;
-}
-
 @media (min-width: 1200px) {
     .project-container {
         overflow: hidden;
         margin-bottom: 100px;
         width: 450px;
-        height: 550px;
+        height: 500px;
         margin: 40px;
     }
     .project-container:hover .image-project{
         transform: scale(1.05);
     }
+    .text {
+        margin-bottom: 120px;
+        margin-top: 80px;
+     }
 }
 
 @media (max-width: 767px) {
     .project-container {
         width: 250px;
-        margin-left: 20px;
         height: 350px;
         margin: 40px;
-        padding: 0px;
+    }
+    .add-info {
+        font-size: 15px;
     }
     .button-project {
         font-size: 8px;
         height: 40px;
         width: 100px;
-    }
-    .not-link1 {
-        margin-right: -50px;
+        margin: 10px;
     }
     .project-container:hover .image-project{
         transform: scale(1.07);
-       
+    }
+    .text {
+        margin-bottom: 25px;
+        margin-top: 30px;
     }
 }

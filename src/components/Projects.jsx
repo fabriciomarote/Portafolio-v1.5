@@ -50,9 +50,9 @@ const Proyects = () => {
                     <p>MIS PROYECTOS</p>
                 </div> 
                 <div className='buttons-box wow animate__animated animate__zoomIn'>
-                    <button className='button-project' onClick={() => { changeView("Backend") }}>Back End</button>
-                    <button className='button-project' onClick={() => { changeView("Fullstack") }}>Full Stack</button>
-                    <button className='button-project' onClick={() => { changeView("Frontend") }}>Front End</button>
+                    <button className='buttons' onClick={() => { changeView("Backend") }}>Back End</button>
+                    <button className='buttons' onClick={() => { changeView("Fullstack") }}>Full Stack</button>
+                    <button className='buttons' onClick={() => { changeView("Frontend") }}>Front End</button>
                 </div> 
                 <div className='box-home-2'>
                     <div className='box-projects'>
