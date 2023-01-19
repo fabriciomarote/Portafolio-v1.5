@@ -60,6 +60,17 @@
     }
 }
 
+@media (max-width: 1281px) and (min-width: 720px) and (orientation: landscape) {
+    .skills-container {
+        width:86vw;
+        height: 100vh;
+        margin-left: 150px;
+    }
+    .box-icons {     
+        gap: 0.1rem;
+    }
+}
+
 @media (max-width:600px) {
     .skills-container {
         width: 100%;

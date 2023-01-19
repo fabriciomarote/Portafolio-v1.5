@@ -100,6 +100,33 @@
         margin-bottom: -100px;
     }
 }
+
+@media (max-width: 1281px) and (min-width: 720px) and (orientation: landscape) {
+    .about-container {
+        width:89vw;
+        min-height: 100vh;
+        margin-left: 140px;
+        margin-top: -100px;
+    }
+    .foto {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .text-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+    .button-cv {
+        margin-bottom: 00px;
+    }
+  }
  
 @media (max-width:600px) {
     .about-container {

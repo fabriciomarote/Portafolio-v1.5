@@ -54,6 +54,15 @@
     }
   }
   
+  @media (max-width: 1281px) and (min-width: 720px) and (orientation: landscape) {
+    .footer-container {
+        width:89vw;
+        margin-left: 140px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+}
+
   @media (max-width: 600px) {
     .footer-container {
       width:100vw;

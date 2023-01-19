@@ -99,14 +99,12 @@
     }
 }
 
-@media (max-width: 1280px) and (min-width: 720px) {
+@media (max-width: 1279px) and (min-width: 720px) {
     .project-container {
         overflow: hidden;
-        margin-bottom: 100px;
         width: 450px;
         height: 600px;
         margin: 10px;
-        background-color: yellowgreen;
     }
     .text {
         font-size: 25px;
