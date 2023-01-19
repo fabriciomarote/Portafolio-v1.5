@@ -111,7 +111,33 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1279px) and (min-width: 720px) {
+    .projects-box-container {
+        width:100%;
+        height: 85vh;
+    }
+    .title-box {
+        font-size: 30px;
+        font-weight: 900;
+        color: var(--text-primary);
+        margin-top: -200px;
+    }
+    .buttons-box {
+        margin-top: -750px;
+    }
+    .box-projects {
+        margin-top: -700px;
+        width: 100%;
+    }
+    .right-arrow {
+        right: -50px;
+    }
+    .left-arrow {
+        left: -50px;
+    }
+}
+
+@media (max-width: 600px) {
     .projects-box-container {
         width:100%;
         display: flex;
