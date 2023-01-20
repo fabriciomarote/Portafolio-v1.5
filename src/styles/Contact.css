@@ -122,17 +122,37 @@
     }
 }
 
-@media (max-width: 1281px) and (min-width: 720px) and (orientation: landscape) {
+@media (max-height: 1024px) and (max-width: 768px) {
     .contact-container {
-        width:85vw;
-        height: 90vh;
-        margin-left: 150px;
+        width: 98vw;
+        height: 80vh;
+        padding-top: 50px;
+        margin-top: 0px;
     }
     .box-form {
         width: 550px;
         min-height: 400px;
-        padding: 20px;
+        padding: 30px;
         border-radius: 10px;
+        padding-top: 0px;
+        margin-top: -200px;
+    }   
+}
+
+@media (max-width: 1024px) and (max-height: 768px) and (orientation: landscape) {
+    .contact-container {
+        width: 85.8vw;
+        height: 80vh;
+        margin-left: 140px;
+        padding-top: 90px;
+    }
+    .box-form {
+        width: 550px;
+        min-height: 400px;
+        padding: 30px;
+        border-radius: 10px;
+        padding-top: 0px;
+        margin-top: -200px;
     }
     .form-input {
         margin: 5px;

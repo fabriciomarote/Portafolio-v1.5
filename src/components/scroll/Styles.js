@@ -24,10 +24,16 @@ export const Button = styled.div`
    @media (min-width: 1280px) {
       display: none;
    }
-   @media (max-width: 1279px) and (min-width: 720px) {
+   @media (max-height: 1024px) and (max-width: 768px) {
       width: 100%;
-   left: 85%;
-   top:60%;
-   font-size: 6rem;
+      left: 91%;
+      top:83%;
+      font-size: 4rem;
+   }
+   @media (max-width: 1024px) and (max-height: 768px) and (orientation: landscape) {
+      width: 100%;
+      left: 90%;
+      top:78%;
+      font-size: 6rem;
    }
 `
