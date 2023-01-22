@@ -360,7 +360,7 @@
     transition: all 0.15s ease-in;
     overflow-y: hidden;
     overflow-x: hidden;
-    top: 75px;
+    top: 70px;
     left: 0px;
     background-color: var(--background-navbar);
     transition: all .5s;

@@ -32,14 +32,10 @@ const Contact = ( props ) => {
                     <form className='formModal'>
                         <div className='form-top'>
                             <input className="form-input" type='text' name="name" value={data.name} onChange={handleChange("name")} placeholder="Nombre" required  ></input>    
-                            <label>Nombre</label>
                             <input className="form-input" type='text' name="email" value={data.email} onChange={handleChange("email")}placeholder="Email" required></input> 
-                            <label>Email</label>
                         </div>
                         <input className="form-input" type='text' name="asunto" value={data.asunto} onChange={handleChange("asunto")}placeholder="Asunto" required></input> 
-                        <label>Asunto</label>
                         <textarea className="form-input" id='message' name="message" value={data.message} onChange={handleChange("message")}placeholder="Escribe tu mensaje aquí..." required></textarea> 
-                        <label>Nombre</label>
                         <button type="submit" className="btn btn-info">Enviar</button>
                     </form>
                 </div>

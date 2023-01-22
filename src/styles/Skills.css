@@ -10,7 +10,8 @@
 }
 
 .box-icons {
-    display: grid; 
+    display: grid;
+    justify-content: center; 
     width: 60vw;
     align-items: center;
     grid-template-columns: repeat(auto-fit,minmax(100px, 1fr)); 
@@ -98,7 +99,6 @@
         margin-top: 50px;
         margin-bottom: 150px;
         width: 100%;
-        gap: 0.1rem;
     }
     .icon {
         margin: 5px;
@@ -109,5 +109,8 @@
     .skills-container {
         min-height: 90vh;
         padding-top: 0px;
+    }
+    .icon {
+        margin: 5px; 
     }
 }

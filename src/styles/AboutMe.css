@@ -172,7 +172,7 @@
 
 @media (max-height: 600px) and (max-width: 400px) {
     .about-container {
-        min-height: 90vh;
+        min-height: 100vh;
         margin-bottom: 300px;
     }
     .foto {
