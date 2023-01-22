@@ -114,3 +114,12 @@
         margin: 5px; 
     }
 }
+
+@media (max-height: 400px) and (max-width: 600px) {
+    .skills-container {
+      width: 100%;
+      min-height: 100vh;
+      margin-left: 0px;
+      margin-bottom: 500px;
+    }
+  }

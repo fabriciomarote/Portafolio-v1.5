@@ -45,4 +45,9 @@ export const Button = styled.div`
       left: 83%;
       top:78%;
    }
+
+   @media (max-height: 400px) and (max-width: 600px) {
+      left: 88%;
+      top:78%; 
+   }
 `

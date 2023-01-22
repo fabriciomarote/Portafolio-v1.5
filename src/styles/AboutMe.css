@@ -185,4 +185,20 @@
     }
 }
 
+@media (max-height: 400px) and (max-width: 600px) {
+    .about-container {
+      width: 100%;
+      height: 100vh;
+      margin-left: 0px;
+    }
+    .foto {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .button-cv {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+  }
+
     

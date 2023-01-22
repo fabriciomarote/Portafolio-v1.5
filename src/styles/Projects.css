@@ -181,4 +181,16 @@
     .title-box {
         margin-top: 0px;
     }
+    .projects-box-container {
+        margin-bottom: 100px;
+    }
+  }
+
+  @media (max-height: 400px) and (max-width: 600px) {
+    .projects-box-container {
+      width: 100%;
+      min-height: 100vh;
+      margin-left: 0px;
+      margin-bottom: 300px;
+    }
   }
