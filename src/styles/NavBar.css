@@ -379,13 +379,13 @@
   }
 }
 
-@media (max-height: 400px) and (max-width: 600px) {
+@media (max-height: 400px) and (max-width: 600px) and (orientation: landscape){
   .navbar-container {
     display: flex;
     flex-direction: row;  
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 98%;
     min-height: 20%;
   }
   .nav {
