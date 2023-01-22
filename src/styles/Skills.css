@@ -92,6 +92,7 @@
 @media (max-width:600px) {
     .skills-container {
         width: 100%;
+        padding-top: 350px;
     }
     .box-icons {
         margin-top: 50px;

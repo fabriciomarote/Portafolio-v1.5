@@ -21,17 +21,18 @@ const Navbar = ( props ) => {
                         <div className="box-title">  
                             <a href="/" className='logo'><img src={logo} alt="logo" /></a>
                         </div>
-                        <div className="theme-1">
-                        <div className='icon-theme' onClick={() => changeMode()}>
-                            { theme === "dark" ? <BsFillMoonFill className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}
-                        </div>
-                    </div>
                     </div>
                     <div className="nav-btn">
-                        <label htmlFor="nav-check">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                        <div className="theme-1">
+                            <div className='icon-theme' onClick={() => changeMode()}>
+                                { theme === "dark" ? <BsFillMoonFill className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}
+                            </div>
+                        </div>
+
+                        <label className="nav-check" htmlFor="nav-check">
+                            <div></div>
+                            <div></div>
+                            <div></div>
                         </label>
                     </div>
                     <div className="nav-links"> 

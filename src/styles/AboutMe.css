@@ -157,6 +157,7 @@
 @media (max-width:600px) {
     .about-container {
         width:100%;
+        padding-top: 350px;
     }
     .text-box {
         width: 90%;

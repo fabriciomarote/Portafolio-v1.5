@@ -36,4 +36,9 @@ export const Button = styled.div`
       top:78%;
       font-size: 6rem;
    }
+   @media (max-width:600px) {
+      left: 80%;
+      top:80%;
+      font-size: 4rem;
+}
 `
