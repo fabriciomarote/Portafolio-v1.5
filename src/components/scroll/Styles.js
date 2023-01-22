@@ -40,5 +40,9 @@ export const Button = styled.div`
       left: 80%;
       top:80%;
       font-size: 4rem;
-}
+   }
+   @media (max-height: 600px) and (max-width: 400px) {
+      left: 83%;
+      top:78%;
+   }
 `

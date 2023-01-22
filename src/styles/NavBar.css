@@ -254,16 +254,16 @@
     justify-content: center;
     align-items: center;
     right: 10px;
-    top: 20px;
+    top: 15px;
     width: 35%;
-    gap: 1rem;
+    gap: 1.8rem;
   }
   .nav > .nav-btn > label {
     display: flex;
     flex-direction: column; 
     width: 3rem;
     height: 3rem;
-    gap: .65rem;
+    gap: .60rem;
     border: 0;
     background: transparent;
     cursor: pointer;
@@ -287,8 +287,10 @@
   }
   .nav > .nav-links {
     position: absolute;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100%;
     transition: all 0.15s ease-in;
     overflow-y: hidden;
@@ -296,23 +298,31 @@
     top: 85px;
     left: 0px;
     background-color: var(--background-navbar);
+    transition: all .5s;
   }
   .nav > .nav-links > a  {
     width: 100%;
     font-size: 20px;
     text-decoration: none;
+    transition: all .5s;
   }
   .nav > .nav-links > a:hover {
     transform: scale(1.1);
     color: #B00000; 
   }
+  .nav > #nav-check:active ~ .nav-links {
+    height: 100%;
+    transition: all .5s;
+  }
   .nav > #nav-check:not(:active) ~ .nav-links {
     height: 0px;
+    transition: all .5s;
   }
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(35vh - 40px);
     overflow-y: hidden;
     overflow-x: hidden;
+    transition: all .5s;
   }
   .navbar-container {
     padding: 0px 0px 0px 0px;
@@ -335,6 +345,37 @@
   .icon-theme {
     width: 45px;
     height: 45px;
+  }
+}
+
+@media (max-height: 600px) and (max-width: 400px) {
+  .nav > .nav-links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: .5rem;
+    transition: all 0.15s ease-in;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    top: 75px;
+    left: 0px;
+    background-color: var(--background-navbar);
+    transition: all .5s;
+  }
+  .nav > .nav-links > a  {
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all .5s;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(32vh - 40px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: all .5s;
   }
 }
 

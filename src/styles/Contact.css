@@ -227,3 +227,33 @@
 @media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
     /* Styles! */
 }
+
+@media (max-height: 600px) and (max-width: 400px) {
+    .contact-container {
+        width:100%;
+        min-height: 90vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+    .box-form {
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        max-width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        background-color: aquamarine;
+    }
+    .form-input {
+        margin: 5px;
+        margin-left: 0px;
+        width: 295px;
+    }
+    #message {
+        min-height: 100px;
+        width: 96%;
+    }
+  }

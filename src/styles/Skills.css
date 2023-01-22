@@ -104,3 +104,10 @@
         margin: 5px;
     }
 }
+
+@media (max-height: 600px) and (max-width: 400px) {
+    .skills-container {
+        min-height: 90vh;
+        padding-top: 0px;
+    }
+}

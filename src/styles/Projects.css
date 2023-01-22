@@ -176,3 +176,9 @@
         left: -60px;
     }
 }
+
+@media (max-height: 600px) and (max-width: 400px) {
+    .title-box {
+        margin-top: 0px;
+    }
+  }

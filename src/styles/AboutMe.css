@@ -170,4 +170,19 @@
     }
 }
 
+@media (max-height: 600px) and (max-width: 400px) {
+    .about-container {
+        min-height: 90vh;
+        margin-bottom: 300px;
+    }
+    .foto {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .button-cv {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+}
+
     
