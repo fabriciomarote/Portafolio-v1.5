@@ -31,14 +31,15 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--background);
     -webkit-text-stroke: 1.5px var(--text-primary);
+    line-height: 0px;
 }
 
 .icons {
     display: grid;
     justify-content: center;
-    align-items: flex-start;
-    padding: 10px;
-    grid-template-columns: repeat(3, 1fr); 
+    width: 100%;
+    padding: 0px;
+    grid-template-columns: repeat(4, 1fr); 
 }
 
 .title-icon {
@@ -87,9 +88,9 @@
 @media (max-height: 1024px) and (max-width: 768px) {
     .skills-container {
         width: 98vw;
-      min-height: 100vh;
-      padding-top: 150px;
-      margin-top: 0px;
+        min-height: 100vh;
+        padding-top: 150px;
+        margin-top: 0px;
     }
     .box-icons {     
         gap: 1rem;
@@ -145,6 +146,10 @@
     }
     .box-frontend, .box-backend, .box-others {
         width: 80%;
+    }
+    .icons {
+        width: 80vw;
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 

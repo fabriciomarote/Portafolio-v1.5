@@ -158,7 +158,6 @@
 @media (max-width:600px) {
     .about-container {
         width:100%;
-        
     }
     .text-box {
         width: 90%;
@@ -171,8 +170,8 @@
 @media (max-height: 600px) and (max-width: 400px) {
     .about-container {
         min-height: 100vh;
-        padding-top: 550px;
-        margin-bottom: 600px;
+        padding-top: 650px;
+        margin-bottom: 700px;
     }
     .foto {
         margin-top: 0px;
