@@ -12,74 +12,32 @@
 
 .box-form {
     border-radius: 10px;
-    justify-content: center;
     margin-top: 0px;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
-    color: var(--text-primary);
     background-color: var(--form-contact);
+    grid-template-columns: repeat(2, 1fr); 
 }
 
-.formModal{
+.icon-contact {
+    margin-right: 20px;
+}
+
+.button-contact {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    line-height: 35px;
-}
-
-.form-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    width: 810px;
-}
-
-.form-input {
-    width: 97%;
-    height: 40px;
-    border-radius: 0px;
-    text-indent: 10px;
-    border: none;
-    margin: 15px;
-    background-color: var(--form-Contact);
-    border-style: ridge;
-    border-bottom-color: #B00000;
     color: var(--text-primary);
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    width: 90%;
+    background-color: var(--background-navbar);
+    height: 80%;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 21px;
 }
 
-#message {
-    padding: 15px 5px 0px 5px;
-    text-indent: 5px;
-    min-height: 50px;
-    width: 97%;
-    font-family: 'Arial Narrow Bold', sans-serif;
-}
+.button-contact:hover {
+    color: #B00000;
 
-.btn-info {
-    margin-top: 50px;
-    height: 50px;
-    border-radius: 5px;
-    font-size: 17px;
-    font-weight: 700; 
-    border: none;
-    color: #fff;
-    background-color: #B00000;
-}
-
-.btn-info:hover {
-    font-size: 17px;
-    font-weight: 700; 
-    padding: 0px;
-    background-color:#000;
-    border-color: #000;
-    color: #B00000; 
 }
 
 @media (min-width: 1200px) {
@@ -89,8 +47,11 @@
         min-height: 90vh;
     }
     .box-form {
+        display: grid;
+        justify-content: center;
+        align-items: center;
         width: 800px;
-        min-height: 300px;
+        min-height: 200px;
         padding: 30px;
         margin-bottom: 100px;
     }
@@ -107,18 +68,6 @@
         padding: 20px;
         border-radius: 10px;
         margin-top: -400px;
-    }
-    .form-input {
-        margin: 5px;
-    }
-    .form-top {
-        display: left;
-        justify-content: space-between;
-        width: 100%;
-    }
-    #message {
-        min-height: 100px;
-        width: 96%;
     }
 }
 
@@ -154,53 +103,6 @@
         padding-top: 0px;
         margin-top: -200px;
     }
-    .form-input {
-        margin: 5px;
-    }
-    .form-top {
-        display: left;
-        justify-content: space-between;
-        width: 100%;
-    }
-    #message {
-        min-height: 100px;
-        width: 96%;
-    }
-}
-
-@media (max-width:600px) {
-    .contact-container {
-        width:100%;
-        min-height: 100vh;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-    }
-    .box-form {
-        width: 300px;
-        min-height: 400px;
-        padding: 20px;
-        border-radius: 10px;
-        margin-bottom: 50px;
-    }
-    .form-input {
-        margin: 5px;
-        margin-left: 0px;
-        width: 300px;
-    }
-    .form-top {
-        display: grid;
-        justify-content: space-between;
-        width: 100%;
-    }
-    .text-contact {
-        font-size: 35px;
-        font-weight: 600;
-    }
-    #message {
-        min-height: 100px;
-        width: 98%;
-    }
 }
 
 @media (max-width:768px) and (orientation: landscape){
@@ -224,8 +126,29 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
-    /* Styles! */
+@media (max-width:600px) {
+    .contact-container {
+        width:100%;
+        min-height: 100vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-form {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .button-contact {
+        width: 100%;
+        height: 90%;
+        font-size: 16px;
+    }
 }
 
 @media (max-height: 600px) and (max-width: 400px) {
@@ -238,34 +161,22 @@
         padding: 0px 0px 0px 0px;
     }
     .box-form {
-        justify-content: left;
-        align-items: left;
-        text-align: left;
         max-width: 100%;
-        padding: 10px;
+        padding: 20px;
         border-radius: 10px;
         margin-top: 10px;
-    }
-    .form-input {
-        margin: 5px;
-        margin-left: 17px;
-        width: 260px;
-    }
-    #message {
-        min-height: 70px;
-        width: 85%;
     }
   }
 
   @media (max-height: 400px) and (max-width: 600px) {
     .contact-container {
-      width: 100%;
-      min-height: 90vh;
-      margin-left: 0px;
-      margin-top: -100px;
-      
+        width: 100%;
+        min-height: 90vh;
+        margin-left: 0px;
+        margin-top: -100px;
     }
     .box-form {
+        flex-direction: column;
         justify-content: left;
         align-items: left;
         text-align: left;

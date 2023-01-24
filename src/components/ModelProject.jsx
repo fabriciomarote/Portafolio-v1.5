@@ -14,6 +14,15 @@ const ModelProject = (props) => {
                 <div className="add-info">
                     <p className="title">{project.title}</p>
                     <p className="text">{project.text}</p>
+                    <div className='box-techs'>
+                        {project.techs.map(tech => {
+                            return (
+                                <div className="project-tech">
+                                    <p>{tech}</p>
+                                </div>
+                            );
+                        })}
+                    </div> 
                     <div className='box-buttons'>
                         { project.link1 !== "" ? 
                         <a href={project.link1} className='button-project'><FaPager size={23}/>Sitio Web</a>

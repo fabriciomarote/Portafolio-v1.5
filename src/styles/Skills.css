@@ -10,12 +10,35 @@
 }
 
 .box-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: flex-start;
+}
+
+.box-frontend, .box-backend, .box-others {
+    width: 30%;
     display: grid;
-    justify-content: center; 
-    width: 60vw;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit,minmax(100px, 1fr)); 
-    margin-top: 20px;
+    justify-content: center;
+    background-color: var(--background-navbar);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.box-title {
+    font-size: 30px;
+    height: 30%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--background);
+    -webkit-text-stroke: 1.5px var(--text-primary);
+}
+
+.icons {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr); 
 }
 
 .title-icon {
@@ -29,7 +52,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     color: #B00000; 
 }
 
@@ -45,7 +68,7 @@
     }
     .box-icons {
         margin-bottom: 100px;
-        gap: 1rem;
+        width:89vw;
     }
 }
 
@@ -93,7 +116,8 @@
 @media (max-width:600px) {
     .skills-container {
         width: 100%;
-        padding-top: 350px;
+        margin: 0px;
+        padding-top: 0px;
     }
     .box-icons {
         margin-top: 50px;
@@ -108,10 +132,19 @@
 @media (max-height: 600px) and (max-width: 400px) {
     .skills-container {
         min-height: 90vh;
-        padding-top: 0px;
     }
     .icon {
         margin: 5px; 
+    }
+    .box-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        width: 100%;
+    }
+    .box-frontend, .box-backend, .box-others {
+        width: 80%;
     }
 }
 
@@ -120,6 +153,5 @@
       width: 100%;
       min-height: 100vh;
       margin-left: 0px;
-      margin-bottom: 500px;
     }
   }

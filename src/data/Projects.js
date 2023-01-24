@@ -9,7 +9,8 @@ import Calculadora1 from "../assets/img/projects/calculadora1.png";
 import Calculadora2 from "../assets/img/projects/calculadora2.jpg";
 import Turnero1 from "../assets/img/projects/turnero1.png";
 import Turnero2 from "../assets/img/projects/turnero2.png";
-import Unqfy from "../assets/img/projects/Unqfy.png"
+import Unqfy1 from "../assets/img/projects/Unqfy1.png"
+import Unqfy2 from "../assets/img/projects/Unqfy2.png"
 import Ubermen from "../assets/img/projects/Ubermen.png"
 
 const projects = [
@@ -20,7 +21,8 @@ const projects = [
       link1: "https://pokedex-web-self.vercel.app",
       link2: "https://github.com/fabriciomarote/Pokedex",
       title: "Pokedex",
-      text: "Es un proyecto realizado de la pagina codealo.dev. Se consumen datos de una api externa y se desarrolló con Javascript, HTML, CSS, React y Bootstrap.",
+      techs: ["Javascript","HTML", "CSS", "React", "Bootstrap"],
+      text: "Es un proyecto realizado de la pagina codealo.dev y se consumen datos de una api externa para poder realizarlo.",
       type: "Frontend",
     },
     {
@@ -30,7 +32,8 @@ const projects = [
       link1: "https://calculadora-eight-beta.vercel.app",
       link2: "https://github.com/fabriciomarote/calculadora",
       title: "Calculadora",
-      text: "Calculadora basica realizada con Javascript y CSS.",
+      techs: ["Javascript", "HTML", "CSS"],
+      text: "Calculadora basica.",
       type: "Frontend",
     },
     {
@@ -40,7 +43,8 @@ const projects = [
       link1: "https://piedra-papel-tijera-largarto-spock.vercel.app",
       link2: "https://github.com/fabriciomarote/Piedra-papel-tijera-largarto-spock",
       title: "Piedra, Papel, Tijera, Lagarto y Spock",
-      text: "Es un juego que realicé en el marco de un proyecto en la Universidad. Se desarrolló con HTML, CSS, React y Bootstrap. ",
+      techs: ["HTML", "CSS", "React", "Bootstrap"],
+      text: "Es un juego que realicé en el marco de un proyecto en la Universidad. ",
       type: "Frontend",
     },
     {
@@ -50,7 +54,8 @@ const projects = [
       link1: "",
       link2: "",
       title: "Rotten Tomatoes",
-      text: "Es una pagina web donde hay que loguearse para poder criticar y se visualiza información sobre peliculas. Fue desarrollado en el marco de un proyecto en la Universidad. La parte de Backend se hizo con Kotlin y Javalin, y la parte de Frontend con React, HTML, CSS y Bootstrap.",
+      techs: ["Kotlin", "Javalin", "HTML", "CSS", "React.js", "Bootstrap"],
+      text: "Es una pagina web donde hay que loguearse para poder criticar y se visualiza información sobre peliculas. Fue desarrollado en el marco de un proyecto en la Universidad.",
       type: "Fullstack",
     },
     {
@@ -60,7 +65,8 @@ const projects = [
       link1: "",
       link2: "https://github.com/fabriciomarote/Turnero",
       title: "Turnero",
-      text: "Es una web con sistemas de turnos medicos, donde además tiene un login, registro y edición de perfil. Fue realizada con ReactJS, Kotlin, Spring Boot y SQL. Fue desarrollado en el marco de un proyecto en la Universidad.",
+      techs: ["Kotlin", "Spring Boot", "MySQL", "HTML", "CSS", "React.js", "Bootstrap"],
+      text: "Es una web con sistemas de turnos medicos, donde además tiene un login, registro y edición de perfil. Fue desarrollado en el marco de un proyecto en la Universidad.",
       type: "Fullstack",
     },
     {
@@ -70,17 +76,19 @@ const projects = [
       link1: "",
       link2: "https://github.com/fabriciomarote/Ubermen",
       title: "Ubermen",
-      text: "Se realiza una API Rest con su CRUD correspondiente. Se desarrolló con Kotlin y Spring Boot. Y se utilizaron bases de datos relacionales y no relaciones: MySQL, MongoDB, Y Neo4j.",
+      techs: ["Kotlin", "Spring Boot", "Hibernate", "MySQL", "Neo4j", "MongoDB", "HTML", "CSS", "React.js", "Bootstrap"],
+      text: "Es Api que simula a la aplicacion Uber, donde se puede agregar, modificar y eliminar, distintos tipos de personajes y escenarios utilizando varias bases de datos",
       type: "Backend",
     },
     {
       id: 7,
-      image1: Unqfy,
-      image2: Unqfy,
+      image1: Unqfy1,
+      image2: Unqfy2,
       link1: "",
       link2: "https://github.com/fabriciomarote/UNQfy",
       title: "Unqfy",
-      text: "Es una API donde se puede agregar y borrar artistas, albumes y canciones, además agregar playlist y reproducir las canciones. Se desarrolló con Javascript, Node.js y Express.",
+      techs: ["Javascript", "Express", "Node.js"],
+      text: "Es una API donde se puede agregar y borrar artistas, albumes y canciones, además agregar playlist y reproducir las canciones.",
       type: "Backend",
     },
   ];

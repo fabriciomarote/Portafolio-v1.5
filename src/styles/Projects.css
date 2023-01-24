@@ -17,9 +17,11 @@
 }
 
 .title-box {
-    font-size: 30px;
-    font-weight: 900;
-    color: var(--text-primary);
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0px;
+    color: var(--background);
+    -webkit-text-stroke: 3px var(--text-primary);
 }
 
 .buttons {
@@ -118,7 +120,6 @@
     .title-box {
         font-size: 30px;
         font-weight: 900;
-        color: var(--text-primary);
         margin-top: -200px;
     }
     .buttons-box {
@@ -155,6 +156,7 @@
 @media (max-width: 600px) {
     .projects-box-container {
         width:100%;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -169,11 +171,11 @@
         width: 80%;
     }
     .right-arrow {
-        right: -60px;
+        right: -90px;
        
     }
     .left-arrow {
-        left: -60px;
+        left: -90px;
     }
 }
 
@@ -182,15 +184,20 @@
         margin-top: 0px;
     }
     .projects-box-container {
-        margin-bottom: 100px;
+        min-height: 700px;
+        margin-bottom: 50px;
+    }
+    .title-box {
+        font-size: 35px;
     }
   }
 
-  @media (max-height: 400px) and (max-width: 600px) {
+  @media (max-height: 400px) and (max-width: 600px) and (orientation: landscape){
     .projects-box-container {
       width: 100%;
-      min-height: 100vh;
       margin-left: 0px;
-      margin-bottom: 300px;
+    }
+    .title-box {
+        font-size: 30px;
     }
   }
