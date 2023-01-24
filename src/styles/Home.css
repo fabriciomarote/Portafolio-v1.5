@@ -16,7 +16,7 @@
   max-height: 100%;
   font-size: 70px;
   font-weight: 300;
-  font-family: 'Arial Narrow Bold', sans-serif;
+  font-family:inherit;
   display: grid;
   justify-content: center;
   align-items: center;

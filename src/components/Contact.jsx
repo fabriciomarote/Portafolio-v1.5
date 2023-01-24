@@ -32,10 +32,10 @@ const Contact = ( props ) => {
             <div className='contact-container' data-theme={theme}>
                 <p className='title-box wow animate__animated animate__zoomIn'> CONTACTAME</p>
                 <div className='box-form wow animate__animated animate__zoomIn'>
-                    <a href="https://drive.google.com/file/d/1-jU1m3B4nGfcrR3IyVWpqNnbyI0I1H_E/view?usp=share_link" className='button-contact'><IoIosPaper size={40} className="icon-contact"/> Mi Curriculum Vitae</a> 
-                    <a href="mailto:fabricio.gm1993@gmail.com" className='button-contact'><MdEmail size={40} className="icon-contact"/> fabricio.gm1993@gmail.com</a> 
-                    <a href="https://www.linkedin.com/in/fabricio-marote/" className='button-contact'><FaLinkedin size={40} className="icon-contact"/> /fabricio-marote</a> 
-                    <a href="https://github.com/fabriciomarote" className='button-contact'><FaGithub size={40} className="icon-contact"/> /fabriciomarote</a> 
+                    <a href="https://drive.google.com/file/d/1-jU1m3B4nGfcrR3IyVWpqNnbyI0I1H_E/view?usp=share_link" className='button-contact hvr-sweep-to-right'><IoIosPaper size={40} className="icon-contact"/> Mi Curriculum Vitae</a> 
+                    <a href="mailto:fabricio.gm1993@gmail.com" className='button-contact hvr-sweep-to-right'><MdEmail size={40} className="icon-contact "/> fabricio.gm1993@gmail.com</a> 
+                    <a href="https://www.linkedin.com/in/fabricio-marote/" className='button-contact hvr-sweep-to-right'><FaLinkedin size={40} className="icon-contact"/> /fabricio-marote</a> 
+                    <a href="https://github.com/fabriciomarote" className='button-contact hvr-sweep-to-right'><FaGithub size={40} className="icon-contact"/> /fabriciomarote</a> 
                 </div>
                 <div className='box-cv animate__animated animate__pulse animate__infinite'>
                     
