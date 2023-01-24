@@ -7,7 +7,6 @@ const ModelProject = (props) => {
     const { project } = props
 
     return (
-        <>
             <div className="project-container wow animate__animated animate__flipInY animate__delay-0.5s">
                 <img alt="imagen" className="image-project1" src={project.image1}></img>
                 <img alt="imagen" className="image-project2" src={project.image2}></img>
@@ -33,7 +32,6 @@ const ModelProject = (props) => {
                     </div> 
                 </div>
             </div>
-        </>  
     );
 };
   

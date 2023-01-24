@@ -11,7 +11,6 @@ const Footer = () => {
       }, [])
 
     return (
-        <>
             <div className="footer-container">
                 <div className="text-footer">
                     <p className="col-sm">
@@ -19,7 +18,6 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
-        </>
     );
 };
 

@@ -42,9 +42,8 @@
 
 @media (min-width: 1200px) {
     .contact-container {
-        width:89vw;
-        margin-left: 149.5px;
-        min-height: 90vh;
+        width:99vw;
+        min-height: 87vh;
     }
     .box-form {
         display: grid;

@@ -91,23 +91,12 @@
 
 @media (min-width: 1200px) {
     .projects-box-container {
-        width:89vw;
-        margin-left: 149.5px;
+        width:99vw;
         height: 100vh;
     }   
     .box-home-2 {
         width: 100%;
         height: 100%;
-    }
-}
-  
-@media (max-width: 1199px) and (min-width: 992px) {
-    .box-projects {
-    }
-}
-  
-@media (max-width: 991px) and (min-width: 768px) {
-    .box-projects {
     }
 }
 

@@ -18,14 +18,9 @@
   
   @media (min-width: 1200px) {
     .footer-container {
-      width:89vw;
-      margin-left: 149.5px;
+      width:99vw;
       padding-top: 5px;
       padding-bottom: 5px;
-    }
-    .col-sm{
-      font-size: 15px;
-      width: 100%;
     }
   }
 

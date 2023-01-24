@@ -79,9 +79,8 @@
 
 @media (min-width: 1200px) {
     .about-container {
-        width:89vw;
-        height: 92vh;
-        margin-left: 149.5px;
+        width:99vw;
+        height: 100vh;
         padding-top: 0px;
     }
 }

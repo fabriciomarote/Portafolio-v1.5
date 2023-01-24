@@ -13,19 +13,18 @@ const Navbar = ( props ) => {
     }
 
     return (
-        <>
             <div className="navbar-container" data-theme={theme}>
                 <div className="nav">
                     <input type="checkbox" id="nav-check"/>
                     <div className="nav-header">
-                        <div className="box-title">  
+                        <div className="box-logo">  
                             <a href="/" className='logo'><img src={logo} alt="logo" /></a>
                         </div>
                     </div>
                     <div className="nav-btn">
                         <div className="theme-1">
                             <div className='icon-theme' onClick={() => changeMode()}>
-                                { theme === "dark" ? <BsFillMoonFill className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}
+                                { theme === "dark" ? <BsFillMoonFill className='icon-dark' size={25}/> : <BsFillSunFill className='icon-light' size={25}/>}
                             </div>
                         </div>
 
@@ -41,15 +40,14 @@ const Navbar = ( props ) => {
                         <a href="#habilidades" className="btn-btn" >Habilidades</a>
                         <a href="#proyectos" className="btn-btn">Proyectos</a>
                         <a href="#contacto" className="btn-btn"> Contacto</a> 
-                    </div>
-                    <div className="theme-2">
+                        <div className="theme-2">
                         <div className='icon-theme' onClick={() => changeMode()}>
-                            { theme === "dark" ? <BsFillMoonFill  className='icon-dark' size={35}/> : <BsFillSunFill className='icon-light' size={35}/>}
+                            { theme === "dark" ? <BsFillMoonFill  className='icon-dark' size={25}/> : <BsFillSunFill className='icon-light' size={25}/>}
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>  
-        </>
     );
 };
 
