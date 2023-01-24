@@ -171,11 +171,11 @@
         width: 80%;
     }
     .right-arrow {
-        right: -75px;
+        right: -80px;
        
     }
     .left-arrow {
-        left: -75px;
+        left: -80px;
     }
 }
 
@@ -189,6 +189,9 @@
     }
     .title-box {
         font-size: 35px;
+    }
+    .buttons-box {
+        margin-bottom: 30px;
     }
   }
 

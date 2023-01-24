@@ -95,7 +95,7 @@
 
 @media (max-height: 600px) and (max-width: 400px) {
   .home-container {
-    height: 90vh;
+    height: 100vh;
   }
 }
 

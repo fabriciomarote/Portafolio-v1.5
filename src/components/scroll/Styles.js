@@ -38,12 +38,11 @@ export const Button = styled.div`
    }
    @media (max-width:600px) {
       left: 80%;
-      top:80%;
+      top:85%;
       font-size: 4rem;
    }
    @media (max-height: 600px) and (max-width: 400px) {
       left: 83%;
-      top:78%;
    }
 
    @media (max-height: 400px) and (max-width: 600px) {
