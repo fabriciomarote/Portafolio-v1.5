@@ -5,7 +5,7 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    background-color: var(--background);
+    background: var(--background2);
     color: var(--text-primary);
     transition: all .5s;
 }
@@ -132,7 +132,7 @@
 
 @media (min-width: 1200px) {
     .projects-box-container {
-        width:99vw;
+        min-width:99vw;
         height: 100vh;
     }   
     .box-home-2 {

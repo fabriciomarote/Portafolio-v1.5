@@ -4,9 +4,8 @@
     align-items: center;
     text-align: center;
     font-family: 'Arial Narrow Bold', sans-serif;
-    width: 100%;
     color: var(--text-primary);
-    background-color: var(--background);
+    background: var(--background2);
     transition: all .5s;
 }
 
@@ -82,7 +81,7 @@
 
 @media (min-width: 1200px) {
     .contact-container {
-        width:99vw;
+        min-width:99vw;
         min-height: 87vh;
     }
     .box-form {

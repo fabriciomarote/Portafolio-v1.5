@@ -72,8 +72,7 @@
 
 @media (min-width: 1200px) {
   .navbar-container {
-    position: fixed;
-    width: 100vw;
+    min-width: 99vw;
     height: 6vh;
   }
   .nav {

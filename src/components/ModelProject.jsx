@@ -1,35 +1,23 @@
-import React from "react";
-import { FaGithub, FaPager } from "react-icons/fa";
+import React, { useState } from "react";
+import styled from 'styled-components'
+import Modal from "../components/Modal"
 import '../styles/ModelProject.css';
 
 const ModelProject = (props) => {
 
     const { project } = props
 
+    const [stateModal, setStateModal] = useState(false);
+
     return (
-            <div className="project-container wow animate__animated animate__flipInY animate__delay-0.5s">
+            <div className="modelProject-container wow animate__animated animate__flipInY animate__delay-0.5s">
                 <img alt="imagen" className="image-project1" src={project.image1}></img>
                 <img alt="imagen" className="image-project2" src={project.image2}></img>
                 <div className="add-info">
                     <p className="title">{project.title}</p>
                     <p className="text">{project.text}</p>
-                    <div className='box-techs'>
-                        {project.techs.map(tech => {
-                            return (
-                                <div className="project-tech">
-                                    <p>{tech}</p>
-                                </div>
-                            );
-                        })}
-                    </div> 
-                    <div className='box-buttons'>
-                        { project.link1 !== "" ? 
-                        <a href={project.link1} className='button-project'><FaPager size={23}/>Sitio Web</a>
-                        :
-                        <div className="not-link1"/>
-                        }
-                        <a href={project.link2} className='button-project'><FaGithub size={23}/>Repositorio</a>
-                    </div> 
+                    
+                    <a href={`/projects/${project.id}`} className='button-project'>Ver mas</a>
                 </div>
             </div>
     );

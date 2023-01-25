@@ -5,7 +5,7 @@
     align-items: center;
     color: #FFFFFF;
     text-align: center;
-    background-color: var(--background);
+    background: var(--background2);
     transition: all .5s;
 }
 
@@ -65,7 +65,7 @@
 
 @media (min-width: 1200px) {
     .skills-container {
-        width:99vw;
+        min-width:99vw;
     }
     .box-icons {
         margin-bottom: 100px;

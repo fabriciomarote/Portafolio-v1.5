@@ -4,8 +4,7 @@
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
-  color: var(--text-primary);
-  background: var(--background-image);
+  background: linear-gradient(rgba(0, 0, 0, 0.901), rgba(0, 0, 0, 0.918)), url(../assets/img/fondos/background.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -33,7 +32,7 @@
 
 @media (min-width: 1200px) {
   .home-container {
-    width:99vw;
+    min-width:99vw;
     height: 100vh;
   }
   .animate__lightSpeedInLeft, .animate__lightSpeedInRight {
