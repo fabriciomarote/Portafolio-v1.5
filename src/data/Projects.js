@@ -1,5 +1,6 @@
-import Pokedex1 from "../assets/img/projects/pokedex1.png";
-import Pokedex2 from "../assets/img/projects/pokedex2.png";
+import Pokedex from "../assets/img/projects/Pokedex.png";
+import Pokedex1 from "../assets/img/projects/Pokedex1.png";
+import PPTLS from "../assets/img/projects/PPTLS.png";
 import PPTLS1 from "../assets/img/projects/PPTLS1.png";
 import PPTLS2 from "../assets/img/projects/PPTLS2.png";
 import PPTLS3 from "../assets/img/projects/PPTLS3.png";
@@ -8,6 +9,7 @@ import PPTLS5 from "../assets/img/projects/PPTLS5.png";
 import PPTLS6 from "../assets/img/projects/PPTLS6.png";
 import PPTLS7 from "../assets/img/projects/PPTLS7.png";
 //import Horney from "../assets/img/projects/horney.png";
+import Rotten from "../assets/img/projects/Rotten.png";
 import Rotten1 from "../assets/img/projects/rotten1.png";
 import Rotten2 from "../assets/img/projects/rotten2.png";
 import Rotten3 from "../assets/img/projects/rotten3.png";
@@ -15,8 +17,9 @@ import Rotten4 from "../assets/img/projects/rotten4.png";
 import Rotten5 from "../assets/img/projects/rotten5.png";
 import Rotten6 from "../assets/img/projects/rotten6.png";
 import Rotten7 from "../assets/img/projects/rotten7.png";
+import Calculadora from "../assets/img/projects/Calculadora.png";
 import Calculadora1 from "../assets/img/projects/calculadora1.png";
-import Calculadora2 from "../assets/img/projects/calculadora2.jpg";
+import Turnero from "../assets/img/projects/Turnero.png";
 import Turnero1 from "../assets/img/projects/turnero1.png";
 import Turnero2 from "../assets/img/projects/turnero2.png";
 import Turnero3 from "../assets/img/projects/turnero3.png";
@@ -32,16 +35,16 @@ import Turnero12 from "../assets/img/projects/turnero12.png";
 import Turnero13 from "../assets/img/projects/turnero13.png";
 import Turnero14 from "../assets/img/projects/turnero14.png";
 import Turnero15 from "../assets/img/projects/turnero15.png";
+import Unqfy from "../assets/img/projects/Unqfy.png"
 import Unqfy1 from "../assets/img/projects/Unqfy1.png"
-import Unqfy2 from "../assets/img/projects/Unqfy2.png"
 import Ubermen from "../assets/img/projects/Ubermen.png"
+import Ubermen1 from "../assets/img/projects/ubermen1.png"
 
 const projects = [
     {
       id: 1,
-      image1: Pokedex1,
-      image2: Pokedex2,
-      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
+      image: Pokedex,
+      images: [Pokedex1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
       link1: "https://pokedex-web-self.vercel.app",
       link2: "https://github.com/fabriciomarote/Pokedex",
       title: "Pokedex",
@@ -51,9 +54,8 @@ const projects = [
     },
     {
       id: 2,
-      image1: Calculadora1,
-      image2: Calculadora2,
-      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
+      image: Calculadora,
+      images: [Calculadora1], 
       link1: "https://calculadora-eight-beta.vercel.app",
       link2: "https://github.com/fabriciomarote/calculadora",
       title: "Calculadora",
@@ -63,8 +65,7 @@ const projects = [
     },
     {
       id: 3,
-      image1: PPTLS1,
-      image2: PPTLS2,
+      image: PPTLS,
       images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
       link1: "https://piedra-papel-tijera-largarto-spock.vercel.app",
       link2: "https://github.com/fabriciomarote/Piedra-papel-tijera-largarto-spock",
@@ -75,45 +76,41 @@ const projects = [
     },
     {
       id: 4,
-      image1: Rotten1,
-      image2: Rotten2,
+      image: Rotten,
       images: [Rotten1, Rotten2, Rotten3, Rotten4, Rotten5, Rotten6, Rotten7], 
       link1: null,
       link2: "https://github.com/fabriciomarote/RottenTomatoes-api-web",
       title: "Rotten Tomatoes",
       techs: ["Kotlin", "Javalin", "HTML", "CSS", "React.js", "Bootstrap"],
-      text: "Es una pagina web donde hay que loguearse para poder criticar y se visualiza información sobre peliculas. Fue desarrollado en el marco de un proyecto en la Universidad.",
+      text: "Es una pagina web donde se puede visualizar información sobre peliculas. Hay que registrarse y loguearse para poder criticarlas. Realizamos una Api utilizando un dominio provisto por la catedra y posteriormente consumiamos para poder realizar el front. Fue desarrollado en el marco de un proyecto en la Universidad.",
       type: "Fullstack",
     },
     {
       id: 5,
-      image1: Turnero1,
-      image2: Turnero2,
+      image: Turnero,
       images: [Turnero1, Turnero2, Turnero3, Turnero4, Turnero5, Turnero6, Turnero7, Turnero8, Turnero9, Turnero10, Turnero11, Turnero12, Turnero13, Turnero14, Turnero15], 
       link1: null,
       link2: "https://github.com/fabriciomarote/Turnero",
       title: "Turnero",
       techs: ["Kotlin", "Spring Boot", "MySQL", "HTML", "CSS", "React.js", "Bootstrap"],
-      text: "Es una web con sistemas de turnos medicos, donde además tiene un login, registro y edición de perfil. Fue desarrollado en el marco de un proyecto en la Universidad.",
+      text: "Es una web con sistemas de turnos medicos donde se pueden sacar turnos para diferentes especialidades en diferentes hospitales registrados, además como funcionalidad tiene para registrarse, loguearse, edición de perfil y cancelar los turnos. Se trabajó con metodologías ágiles a través de SCRUM. Fue desarrollado en el marco de un proyecto en la Universidad.",
       type: "Fullstack",
     },
     {
       id: 6,
-      image1: Ubermen,
-      image2: Ubermen,
-      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
+      image: Ubermen,
+      images: [Ubermen1], 
       link1: null,
       link2: "https://github.com/fabriciomarote/Ubermen",
       title: "Ubermen",
-      techs: ["Kotlin", "Spring Boot", "Hibernate", "MySQL", "Neo4j", "MongoDB", "HTML", "CSS", "React.js", "Bootstrap"],
-      text: "Es Api que simula a la aplicacion Uber, donde se puede agregar, modificar y eliminar, distintos tipos de personajes y escenarios utilizando varias bases de datos",
+      techs: ["Kotlin", "Spring Boot", "JDBC", "Hibernate", "MySQL", "Neo4j", "MongoDB", "HTML", "CSS", "React.js", "Bootstrap"],
+      text: "Es una API que simula a la aplicacion Uber, donde se puede agregar, modificar y eliminar, distintos tipos de personajes y escenarios utilizando varias bases de datos. Tiene además la funcionalidad para poder patrullar y encontrar diferentes escenarios para poder completar conflictos y superarlos cumpliendo distintos requisitos, enfrentarse contra villanos y poder mutar sus poderes. Fue desarrollado en el marco de un proyecto en la Universidad.",
       type: "Backend",
     },
     {
       id: 7,
-      image1: Unqfy1,
-      image2: Unqfy2,
-      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
+      image: Unqfy,
+      images: [Unqfy1], 
       link1: null,
       link2: "https://github.com/fabriciomarote/UNQfy",
       title: "Unqfy",
