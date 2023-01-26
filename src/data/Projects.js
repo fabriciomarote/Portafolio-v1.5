@@ -1,7 +1,12 @@
 import Pokedex1 from "../assets/img/projects/pokedex1.png";
 import Pokedex2 from "../assets/img/projects/pokedex2.png";
 import PPTLS1 from "../assets/img/projects/PPTLS1.png";
-import PPTLS2 from "../assets/img/projects/PPTLS2.jpg";
+import PPTLS2 from "../assets/img/projects/PPTLS2.png";
+import PPTLS3 from "../assets/img/projects/PPTLS3.png";
+import PPTLS4 from "../assets/img/projects/PPTLS4.png";
+import PPTLS5 from "../assets/img/projects/PPTLS5.png";
+import PPTLS6 from "../assets/img/projects/PPTLS6.png";
+import PPTLS7 from "../assets/img/projects/PPTLS7.png";
 //import Horney from "../assets/img/projects/horney.png";
 import Rotten1 from "../assets/img/projects/rotten1.png";
 import Rotten2 from "../assets/img/projects/rotten2.png";
@@ -9,6 +14,19 @@ import Calculadora1 from "../assets/img/projects/calculadora1.png";
 import Calculadora2 from "../assets/img/projects/calculadora2.jpg";
 import Turnero1 from "../assets/img/projects/turnero1.png";
 import Turnero2 from "../assets/img/projects/turnero2.png";
+import Turnero3 from "../assets/img/projects/turnero3.png";
+import Turnero4 from "../assets/img/projects/turnero4.png";
+import Turnero5 from "../assets/img/projects/turnero5.png";
+import Turnero6 from "../assets/img/projects/turnero6.png";
+import Turnero7 from "../assets/img/projects/turnero7.png";
+import Turnero8 from "../assets/img/projects/turnero8.png";
+import Turnero9 from "../assets/img/projects/turnero9.png";
+import Turnero10 from "../assets/img/projects/turnero10.png";
+import Turnero11 from "../assets/img/projects/turnero11.png";
+import Turnero12 from "../assets/img/projects/turnero12.png";
+import Turnero13 from "../assets/img/projects/turnero13.png";
+import Turnero14 from "../assets/img/projects/turnero14.png";
+import Turnero15 from "../assets/img/projects/turnero15.png";
 import Unqfy1 from "../assets/img/projects/Unqfy1.png"
 import Unqfy2 from "../assets/img/projects/Unqfy2.png"
 import Ubermen from "../assets/img/projects/Ubermen.png"
@@ -18,6 +36,7 @@ const projects = [
       id: 1,
       image1: Pokedex1,
       image2: Pokedex2,
+      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
       link1: "https://pokedex-web-self.vercel.app",
       link2: "https://github.com/fabriciomarote/Pokedex",
       title: "Pokedex",
@@ -29,6 +48,7 @@ const projects = [
       id: 2,
       image1: Calculadora1,
       image2: Calculadora2,
+      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
       link1: "https://calculadora-eight-beta.vercel.app",
       link2: "https://github.com/fabriciomarote/calculadora",
       title: "Calculadora",
@@ -40,6 +60,7 @@ const projects = [
       id: 3,
       image1: PPTLS1,
       image2: PPTLS2,
+      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
       link1: "https://piedra-papel-tijera-largarto-spock.vercel.app",
       link2: "https://github.com/fabriciomarote/Piedra-papel-tijera-largarto-spock",
       title: "Piedra, Papel, Tijera, Lagarto y Spock",
@@ -51,8 +72,9 @@ const projects = [
       id: 4,
       image1: Rotten1,
       image2: Rotten2,
-      link1: "",
-      link2: "",
+      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
+      link1: null,
+      link2: "https://github.com/fabriciomarote/RottenTomatoes-api-web",
       title: "Rotten Tomatoes",
       techs: ["Kotlin", "Javalin", "HTML", "CSS", "React.js", "Bootstrap"],
       text: "Es una pagina web donde hay que loguearse para poder criticar y se visualiza información sobre peliculas. Fue desarrollado en el marco de un proyecto en la Universidad.",
@@ -62,7 +84,8 @@ const projects = [
       id: 5,
       image1: Turnero1,
       image2: Turnero2,
-      link1: "",
+      images: [Turnero1, Turnero2, Turnero3, Turnero4, Turnero5, Turnero6, Turnero7, Turnero8, Turnero9, Turnero10, Turnero11, Turnero12, Turnero13, Turnero14, Turnero15], 
+      link1: null,
       link2: "https://github.com/fabriciomarote/Turnero",
       title: "Turnero",
       techs: ["Kotlin", "Spring Boot", "MySQL", "HTML", "CSS", "React.js", "Bootstrap"],
@@ -73,7 +96,8 @@ const projects = [
       id: 6,
       image1: Ubermen,
       image2: Ubermen,
-      link1: "",
+      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
+      link1: null,
       link2: "https://github.com/fabriciomarote/Ubermen",
       title: "Ubermen",
       techs: ["Kotlin", "Spring Boot", "Hibernate", "MySQL", "Neo4j", "MongoDB", "HTML", "CSS", "React.js", "Bootstrap"],
@@ -84,7 +108,8 @@ const projects = [
       id: 7,
       image1: Unqfy1,
       image2: Unqfy2,
-      link1: "",
+      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
+      link1: null,
       link2: "https://github.com/fabriciomarote/UNQfy",
       title: "Unqfy",
       techs: ["Javascript", "Express", "Node.js"],

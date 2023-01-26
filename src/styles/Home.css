@@ -4,8 +4,7 @@
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
-  color: var(--text-primary);
-  background: var(--background-image);
+  background: linear-gradient(rgba(0, 0, 0, 0.901), rgba(0, 0, 0, 0.918)), url(../assets/img/fondos/background.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -16,7 +15,7 @@
   max-height: 100%;
   font-size: 70px;
   font-weight: 300;
-  font-family: 'Arial Narrow Bold', sans-serif;
+  font-family:inherit;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -33,9 +32,8 @@
 
 @media (min-width: 1200px) {
   .home-container {
-    width:89vw;
-    height: 110vh;
-    margin-left: 149.5px;
+    min-width:99vw;
+    height: 100vh;
   }
   .animate__lightSpeedInLeft, .animate__lightSpeedInRight {
     --animate-duration: 2s;
