@@ -6,6 +6,8 @@ import projects from "../data/Projects.js";
 import NavBar from '../components/NavBar.jsx';
 import useLocalStorage from 'use-local-storage';
 import '../styles/Project.css';
+import styled from 'styled-components';
+import Modal from "./Modal.jsx";
 
 const Project = () => {
 
@@ -14,8 +16,13 @@ const Project = () => {
     const [project, setProject] = useState([]);
     const [techsProject, setTechsProject] = useState([]);
     const [imagesProject, setImagesProject] = useState([]);
+    const [image, setImage] = useState([]);
+
+    const [stateModal, setStateModal] = useState(false);
+
     const [current, setCurrent] = useState(0);
     const length = imagesProject != undefined ? imagesProject.length : "";
+
 
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
@@ -57,8 +64,12 @@ const Project = () => {
                             return (
                                 <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                     {index === current && ( 
-                                <img alt="imagen" className="p-image" src={image}></img>
+                                <>
+                                    <img alt="imagen" className="p-image" src={image} onClick={() => setStateModal(!stateModal)} />
+                                    <Modal image={image} state={stateModal} setState={setStateModal} />
+                                </>
                                 )}
+                                
                                 </div>
                             );
                     })}
@@ -104,6 +115,7 @@ const Project = () => {
                     <p className="title-project">{project.title}</p>
                     <div className="images-container">
                         {imagesByProject()} 
+                        
                     </div>
 
                     <p className="text-project">{project.text}</p>
@@ -123,17 +135,46 @@ const Project = () => {
   
 export default Project;
 
+const ContenedorBotones = styled.div`
+	padding: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+`;
 
-/*
+const Boton = styled.button`
+	display: block;
+	padding: 10px 30px;
+	border-radius: 100px;
+	color: #fff;
+	border: none;
+	background: #1766DC;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	transition: .3s ease all;
+	&:hover {
+		background: #0066FF;
+	}
+`;
 
-<div className='box-techs'>
-                        {project.techs.map(tech => {
-                            return (
-                                <div className="project-tech">
-                                    <p>{tech}</p>
-                                </div>
-                            );
-                        })}
-                    </div> 
-
-*/
+const Contenido = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h1 {
+		font-size: 42px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	p {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	img {
+		width: 100%;
+		vertical-align: top;
+		border-radius: 3px;
+	}
+`;
