@@ -69,8 +69,8 @@
     .modelProject-container {
         overflow: hidden;
         margin-bottom: 100px;
-        width: 750px;
-        height: 400px;
+        width: 600px;
+        height: 350px;
         margin: 40px;
     }
     .modelProject-container:hover .image-project{

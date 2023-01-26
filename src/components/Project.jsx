@@ -5,9 +5,8 @@ import { RxDoubleArrowLeft, RxDoubleArrowRight } from 'react-icons/rx';
 import projects from "../data/Projects.js";
 import NavBar from '../components/NavBar.jsx';
 import useLocalStorage from 'use-local-storage';
-import '../styles/Project.css';
-import styled from 'styled-components';
 import Modal from "./Modal.jsx";
+import '../styles/Project.css';
 
 const Project = () => {
 
@@ -55,23 +54,22 @@ const Project = () => {
     }, [idProject, project]);
 
     const imagesByProject = () => {
-        if (techsProject != undefined) {
+        if (imagesProject != undefined) {
             return (
                 <>
-                    <RxDoubleArrowLeft className='arrow-left' onClick={prevProject} />
-                    <RxDoubleArrowRight className='arrow-right' onClick={nextProject} />
                     {imagesProject.map((image, index) => {
-                            return (
-                                <div className={index === current ? 'slide active' : 'slide'} key={index}>
-                                    {index === current && ( 
+                        return (
+                            <div className={index === current ? 'slide active' : 'slide'} key={index}>
+                                {index === current && ( 
                                 <>
+                                    <RxDoubleArrowLeft className='arrow-left' onClick={prevProject} />
+                                    <RxDoubleArrowRight className='arrow-right' onClick={nextProject} />                                
                                     <img alt="imagen" className="p-image" src={image} onClick={() => setStateModal(!stateModal)} />
                                     <Modal image={image} state={stateModal} setState={setStateModal} />
                                 </>
                                 )}
-                                
-                                </div>
-                            );
+                            </div>
+                        );
                     })}
                 </>
             );
@@ -134,47 +132,3 @@ const Project = () => {
 };
   
 export default Project;
-
-const ContenedorBotones = styled.div`
-	padding: 40px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 20px;
-`;
-
-const Boton = styled.button`
-	display: block;
-	padding: 10px 30px;
-	border-radius: 100px;
-	color: #fff;
-	border: none;
-	background: #1766DC;
-	cursor: pointer;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	transition: .3s ease all;
-	&:hover {
-		background: #0066FF;
-	}
-`;
-
-const Contenido = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	h1 {
-		font-size: 42px;
-		font-weight: 700;
-		margin-bottom: 10px;
-	}
-	p {
-		font-size: 18px;
-		margin-bottom: 20px;
-	}
-	img {
-		width: 100%;
-		vertical-align: top;
-		border-radius: 3px;
-	}
-`;

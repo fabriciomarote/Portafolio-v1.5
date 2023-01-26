@@ -37,7 +37,7 @@ export default Modal;
   `;
 
   const ContenedorModal = styled.div`
-    width: 1200px;
+    width: 1000px;
     height: 600px;
     position: relative;
     border-radius:0px;
