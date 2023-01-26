@@ -7,10 +7,7 @@
     color: var(--text-primary);
     background: var(--background2);
     transition: all .5s;
-}
- 
-.box-title {
-    margin: 50px;
+    text-align: center;
 }
 
 .body-about {
