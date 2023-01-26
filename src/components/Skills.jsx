@@ -49,7 +49,7 @@ const Skills = () => {
                <div className='icon hvr-grow-shadow'>
                   <FaReact className="icon-skill"/>
                   <div className='add-title'>
-                  <p className="title-icon">React</p>
+                  <p className="title-icon">React.js</p>
                   </div>
                </div>
                <div className='icon hvr-grow-shadow'>
@@ -67,7 +67,7 @@ const Skills = () => {
                <div className='icon hvr-grow-shadow'>
                   <FaNode className="icon-skill"/>
                   <div className='add-title'>
-                     <p className="title-icon">Node JS</p>
+                     <p className="title-icon">Node.js</p>
                   </div>
                </div>
                <div className='icon hvr-grow-shadow'>
@@ -79,7 +79,7 @@ const Skills = () => {
                <div className='icon hvr-grow-shadow'>
                   <DiMysql size={65} className="icon-skill"/>
                   <div className='add-title'>
-                     <p className="title-icon">Mysql</p>
+                     <p className="title-icon">MySQL</p>
                   </div>
                </div>
                <div className='icon hvr-grow-shadow'>

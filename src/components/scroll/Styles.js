@@ -44,7 +44,7 @@ export const Button = styled.div`
       font-size: 4rem;
    }
    @media (max-height: 600px) and (max-width: 400px) {
-      left: 83%;
+      left: 81%;
    }
 
    @media (max-height: 400px) and (max-width: 600px) {
