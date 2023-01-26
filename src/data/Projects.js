@@ -8,7 +8,6 @@ import PPTLS4 from "../assets/img/projects/PPTLS4.png";
 import PPTLS5 from "../assets/img/projects/PPTLS5.png";
 import PPTLS6 from "../assets/img/projects/PPTLS6.png";
 import PPTLS7 from "../assets/img/projects/PPTLS7.png";
-//import Horney from "../assets/img/projects/horney.png";
 import Rotten from "../assets/img/projects/Rotten.png";
 import Rotten1 from "../assets/img/projects/rotten1.png";
 import Rotten2 from "../assets/img/projects/rotten2.png";
