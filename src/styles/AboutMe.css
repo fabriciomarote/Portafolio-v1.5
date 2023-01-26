@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:inherit;
     color: var(--text-primary);
     background: var(--background2);
     transition: all .5s;
@@ -45,8 +45,8 @@
     text-align: left;
     width: 50%;
     height: 100%;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 300;
     line-height: 28px;
 }
  

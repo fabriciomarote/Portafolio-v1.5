@@ -10,6 +10,11 @@ import PPTLS7 from "../assets/img/projects/PPTLS7.png";
 //import Horney from "../assets/img/projects/horney.png";
 import Rotten1 from "../assets/img/projects/rotten1.png";
 import Rotten2 from "../assets/img/projects/rotten2.png";
+import Rotten3 from "../assets/img/projects/rotten3.png";
+import Rotten4 from "../assets/img/projects/rotten4.png";
+import Rotten5 from "../assets/img/projects/rotten5.png";
+import Rotten6 from "../assets/img/projects/rotten6.png";
+import Rotten7 from "../assets/img/projects/rotten7.png";
 import Calculadora1 from "../assets/img/projects/calculadora1.png";
 import Calculadora2 from "../assets/img/projects/calculadora2.jpg";
 import Turnero1 from "../assets/img/projects/turnero1.png";
@@ -72,7 +77,7 @@ const projects = [
       id: 4,
       image1: Rotten1,
       image2: Rotten2,
-      images: [PPTLS1, PPTLS2, PPTLS3, PPTLS4, PPTLS5, PPTLS6, PPTLS7], 
+      images: [Rotten1, Rotten2, Rotten3, Rotten4, Rotten5, Rotten6, Rotten7], 
       link1: null,
       link2: "https://github.com/fabriciomarote/RottenTomatoes-api-web",
       title: "Rotten Tomatoes",
